@@ -480,7 +480,7 @@ window.addEventListener("resize", () => {
   app.renderer.resize(window.innerWidth, window.innerHeight);
   updateSpritePositions();
 });
-ctx.value_server = new PIXI.Text("W-DE", ctx.fontStyle.name);
+ctx.value_server = new PIXI.Text("TR-W", ctx.fontStyle.name);
 ctx.value_server.x = 17;
 ctx.value_server.y = 3;
 ctx.label_hs = new PIXI.Text("HS", ctx.fontStyle.amarillo);
@@ -532,7 +532,7 @@ ctx.borderImg.y = 78;
 ctx.borderImg.width = 110;
 ctx.borderImg.height = 60;
 ctx.setServer = function (p21) {
-  ctx.value_server.text = p21 || "W-DE";
+  ctx.value_server.text = p21 || "TR-W";
 };
 ctx.setCountGame = function (p22, p23, p24, p25) {
   ctx.value1_hs.text = p23;
@@ -3196,7 +3196,7 @@ window.addEventListener("load", function () {
           v263.beginFill("black", 0.4);
           v263.drawCircle(0, 0, this.Kf);
           v263.endFill();
-          v263.lineStyle(2, 0xf79425);
+          v263.lineStyle(2, 0xffffff);
           v263.drawCircle(0, 0, this.Kf);
           v263.moveTo(0, -this.Kf);
           v263.lineTo(0, +this.Kf);
@@ -3206,7 +3206,7 @@ window.addEventListener("load", function () {
           this.Sf.alpha = 0.55;
           this.Jf.zIndex = 2;
           this.Jf.alpha = 0.9;
-          this.Jf.beginFill(0xf79425);
+          this.Jf.beginFill(0x00fc08);
           this.Jf.drawCircle(0x0, 0x0, 0.08 * this['Kf']),
           this.Jf.endFill();
           this.Jf.lineStyle(1, "black");
