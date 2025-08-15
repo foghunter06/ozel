@@ -27,7 +27,7 @@ div#title {
     /* Ø¥Ø¶Ø§ÙØ© Ø®Ø§ØµÙŠØ© border-radius Ù„Ù„Ø§Ù†Ø­Ù†Ø§Ø¡ ÙÙŠ Ø§Ù„Ø²ÙˆØ§ÙŠØ§ Ø§Ù„Ø¹Ù„ÙˆÙŠØ© */
     /* border-top-left-radius: 24px; */
     /* border-top-right-radius: 10px; */
-    width: 240px;
+    width: 245px;
 }
 body,
 html {
@@ -1400,6 +1400,8 @@ body {display:block !important;}
   border: solid #ffffff;
   border-radius: 10px;
   background-image: linear-gradient(#d4ecff, #000302);
+  
+  
   
   
   
@@ -7469,13 +7471,45 @@ to{
   border-radius:8px;
 }
 #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-right {
-  position:absolute;
-  height:100%;
-  width: 269px;
+  /* position:absolute; */
+  /* height:100%; */
+  /* width: 269px; */
   right:30px;
   /* box-shadow: 0 0 50px #005fff; */
-  border: solid #ffffff;
+  /* border: solid #ffffff; */
   border-radius: -2px;
+}
+
+.column-right {
+    /* position: absolute; */
+    /* height:100%; */
+    /* width:260px; */
+    /* right:10px; */
+    /* border: solid #ffffff; */
+    /* border-radius: 10px; */
+    /* background-image: linear-gradient(#d4ecff, #000302); */
+}
+
+.column-right {
+    /* position: absolute; */ */
+    /* height: 100%; */
+    /* width: 240px; */
+    left: 30px;
+    /* border-radius: 5px; */
+    /* height: 280px; */
+    /* margin: 30px 0; */
+    /* overflow: scroll; */
+    /* padding: 2px 5px; */
+    /* box-sizing: border-box; */
+    /* color: rgba(255, 255, 255, .8); */
+    position: absolute;
+    height: 100%;
+    width: 260px;
+    /* left: 10px; */
+    /* left: 10px; */
+    border: solid #ffffff;
+    border-radius: 10px;
+    background-image: linear-gradient(#d4ecff, #000302);
 }
 #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-right #loa831pibur0w4gv {
   height:340px;
@@ -9899,8 +9933,28 @@ top: 90%;
   font-weight: bold;
   font-size: 12px;
 }
-#loa831pibur0w4gv {
-overflow: scroll !important;
+#loa831pibur0w4gv {overflow: scroll !important;}
+
+div#loa831pibur0w4gv {
+    /* position: absolute; */ */
+    /* height: 100%; */
+    /* width: 240px; */
+    left: 30px;
+    /* border-radius: 5px; */
+    /* height: 280px; */
+    /* margin: 30px 0; */
+    /* overflow: scroll; */
+    /* padding: 2px 5px; */
+    /* box-sizing: border-box; */
+    /* color: rgba(255, 255, 255, .8); */
+    /* position: absolute; */
+    /* height: 100%; */
+    /* width: 260px; */
+    /* left: 10px; */
+    /* left: 10px; */
+    /* border: solid #ffffff; */
+    /* border-radius: 10px; */
+    /* background-image: linear-gradient(#d4ecff, #000302); */
 }
 #UserTokenHack{
 text-align: center;
@@ -10633,12 +10687,27 @@ input[type="color"]::-moz-color-swatch {
 }
 
 #titleSetings {
-  font-size: 1.5em; /* Aumenta el tamaÃƒÆ’Ã‚Â±o del texto */
-  padding: 8px 12px; /* Aumenta el espacio interior */
-  border-radius: 8px; /* Aumenta el radio del borde para hacerlo mÃƒÆ’Ã‚Â¡s suave */
-  text-align: center; /* Centra el texto horizontalmente */
-  font-weight: bold; /* Hace que el texto sea mÃƒÆ’Ã‚Â¡s fuerte */
-  color: #fff; /* Cambia el color del texto a blanco */
+  /* font-size: 1.5em; */ /* Aumenta el tamaÃƒÆ’Ã‚Â±o del texto */
+  /* padding: 8px 12px; */ /* Aumenta el espacio interior */
+  /* border-radius: 8px; */ /* Aumenta el radio del borde para hacerlo mÃƒÆ’Ã‚Â¡s suave */
+  /* text-align: center; */ /* Centra el texto horizontalmente */
+  /* font-weight: bold; */ /* Hace que el texto sea mÃƒÆ’Ã‚Â¡s fuerte */
+  /* color: #fff; */ /* Cambia el color del texto a blanco */
+  text-shadow: 0 0 0 #ff0, 0 0 0.5em #ff0, 0 0 0.4em #ff0;
+  background: #040200c7;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px 8px 8px 5px;
+  display: block;
+  border-bottom: 1px solid #DBDBDB;
+  box-shadow: 0 1px 2px #D3D3D3;
+  color: #fff;
+  text-align: center;
+  /* border-top-left-radius: 24px; */
+  /* border-top-right-radius: 10px; */
+  width: 240px;
+  width: 248px;
 }
 
 #mm-params-game-mode,
@@ -10664,15 +10733,15 @@ input[type="color"]::-moz-color-swatch {
 #loa831pibur0w4gv,
 .description-text
  {
-  border: 0 solid;
-  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
-  outline: 1px solid;
-  outline-color: rgba(255, 255, 255, 0.5);
-  outline-offset: 0px;
-  text-shadow: none;
-  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
-  background: transparent;
-  color: #fff;
+  /* border: 0 solid; */
+  /* box-shadow: inset 0 0 20px rgba(255, 255, 255, 0); */
+  /* outline: 1px solid; */
+  /* outline-color: rgba(255, 255, 255, 0.5); */
+  /* outline-offset: 0px; */
+  /* text-shadow: none; */
+  /* transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1); */
+  /* background: transparent; */
+  /* color: #fff; */
 }
 #loa831pibur0w4gv:hover,
 .description-text:hover
