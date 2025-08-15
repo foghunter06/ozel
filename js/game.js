@@ -9442,7 +9442,7 @@ window.addEventListener("load", function () {
       function (p650) {
         v760 = p650;
         $.ajax({
-          url: "https://foghunter06.github.io/exetnsion/private/api/skins.json",
+          url: "https://foghunter06.github.io/ozel/api/skins.json",
           method: "GET",
           dataType: "json",
           success: function (p651) {
