@@ -4506,15 +4506,15 @@
         "priceBefore": 0,
         "prime": "c__yllw",
         "base": [
-            "skin_foghunter_03_8",
-            "skin_foghunter_03_7",
-            "skin_foghunter_03_6",
-            "skin_foghunter_03_5",
-            "skin_foghunter_03_4",
-            "skin_foghunter_03_3",
-            "skin_foghunter_03_2",
-            "skin_foghunter_03_1",
-            "skin_foghunter_03_0"
+            "skin_bnorange_03_8",
+            "skin_bnorange_03_7",
+            "skin_bnorange_03_6",
+            "skin_bnorange_03_5",
+            "skin_bnorange_03_4",
+            "skin_bnorange_03_3",
+            "skin_bnorange_03_2",
+            "skin_bnorange_03_1",
+            "skin_bnorange_03_0"
         ],
         "glow": [
             "a__orng",
@@ -4738,15 +4738,15 @@
         "priceBefore": 0,
         "prime": "c__yllw",
         "base": [
-            "skin_foghunter_02_8",
-            "skin_foghunter_02_7",
-            "skin_foghunter_02_6",
-            "skin_foghunter_02_5",
-            "skin_foghunter_02_4",
-            "skin_foghunter_02_3",
-            "skin_foghunter_02_2",
-            "skin_foghunter_02_1",
-            "skin_foghunter_02_0"
+            "skin_bnorange_02_8",
+            "skin_bnorange_02_7",
+            "skin_bnorange_02_6",
+            "skin_bnorange_02_5",
+            "skin_bnorange_02_4",
+            "skin_bnorange_02_3",
+            "skin_bnorange_02_2",
+            "skin_bnorange_02_1",
+            "skin_bnorange_02_0"
         ],
         "glow": [
             "a_white",
@@ -5231,15 +5231,15 @@
         "priceBefore": 0,
         "prime": "c__yllw",
         "base": [
-            "skin_foghunter_01_8",
-            "skin_foghunter_01_7",
-            "skin_foghunter_01_6",
-            "skin_foghunter_01_5",
-            "skin_foghunter_01_4",
-            "skin_foghunter_01_3",
-            "skin_foghunter_01_2",
-            "skin_foghunter_01_1",
-            "skin_foghunter_01_0"
+            "skin_bnorange_01_8",
+            "skin_bnorange_01_7",
+            "skin_bnorange_01_6",
+            "skin_bnorange_01_5",
+            "skin_bnorange_01_4",
+            "skin_bnorange_01_3",
+            "skin_bnorange_01_2",
+            "skin_bnorange_01_1",
+            "skin_bnorange_01_0"
         ],
         "glow": [
             "a__orng",
@@ -5288,9 +5288,9 @@
   "skinGroupArrayDict": [
     {
       "isCustom": true,
-      "id": "Foghunter",
+      "id": "bnorange",
       "name": {
-        "en": "FogHunter"
+        "en": "bnorange"
       },
       "list": [
         "1400",
@@ -5300,15 +5300,15 @@
     }
   ],
   "textureDict": {
-    "skin_foghunter_03": {
+    "skin_bnorange_03": {
         "custom": true,
         "relativePath": "https://i.imgur.com/L05vYpL.png"
     },
-    "skin_foghunter_02": {
+    "skin_bnorange_02": {
         "custom": true,
         "relativePath": "https://i.imgur.com/fspHcCg.png"
     },
-    "skin_foghunter_01": {
+    "skin_bnorange_01": {
         "custom": true,
         "relativePath": "https://i.imgur.com/5w0yJpK.png"
     },
@@ -6330,190 +6330,190 @@
     "c_a_tm2_B": "18d2f2"
   },
   "regionDict": {
-    "skin_foghunter_03_0": {
-        "texture": "skin_foghunter_03",
+    "skin_bnorange_03_0": {
+        "texture": "skin_bnorange_03",
         "h": 170,
         "w": 174,
         "x": 0,
         "y": 0
     },
-    "skin_foghunter_03_1": {
-        "texture": "skin_foghunter_03",
+    "skin_bnorange_03_1": {
+        "texture": "skin_bnorange_03",
         "h": 170,
         "w": 174,
         "x": 174,
         "y": 0
     },
-    "skin_foghunter_03_2": {
-        "texture": "skin_foghunter_03",
+    "skin_bnorange_03_2": {
+        "texture": "skin_bnorange_03",
         "h": 170,
         "w": 174,
         "x": 348,
         "y": 0
     },
-    "skin_foghunter_03_3": {
-        "texture": "skin_foghunter_03",
+    "skin_bnorange_03_3": {
+        "texture": "skin_bnorange_03",
         "h": 170,
         "w": 174,
         "x": 522,
         "y": 0
     },
-    "skin_foghunter_03_4": {
-        "texture": "skin_foghunter_03",
+    "skin_bnorange_03_4": {
+        "texture": "skin_bnorange_03",
         "h": 170,
         "w": 174,
         "x": 696,
         "y": 0
     },
-    "skin_foghunter_03_5": {
-        "texture": "skin_foghunter_03",
+    "skin_bnorange_03_5": {
+        "texture": "skin_bnorange_03",
         "h": 170,
         "w": 174,
         "x": 870,
         "y": 0
     },
-    "skin_foghunter_03_6": {
-        "texture": "skin_foghunter_03",
+    "skin_bnorange_03_6": {
+        "texture": "skin_bnorange_03",
         "h": 170,
         "w": 174,
         "x": 1044,
         "y": 0
     },
-    "skin_foghunter_03_7": {
-        "texture": "skin_foghunter_03",
+    "skin_bnorange_03_7": {
+        "texture": "skin_bnorange_03",
         "h": 170,
         "w": 174,
         "x": 1218,
         "y": 0
     },
-    "skin_foghunter_03_8": {
-        "texture": "skin_foghunter_03",
+    "skin_bnorange_03_8": {
+        "texture": "skin_bnorange_03",
         "h": 170,
         "w": 174,
         "x": 1396,
         "y": 0
     },
-    "skin_foghunter_02_0": {
-        "texture": "skin_foghunter_02",
+    "skin_bnorange_02_0": {
+        "texture": "skin_bnorange_02",
         "h": 170,
         "w": 174,
         "x": 0,
         "y": 0
     },
-    "skin_foghunter_02_1": {
-        "texture": "skin_foghunter_02",
+    "skin_bnorange_02_1": {
+        "texture": "skin_bnorange_02",
         "h": 170,
         "w": 174,
         "x": 174,
         "y": 0
     },
-    "skin_foghunter_02_2": {
-        "texture": "skin_foghunter_02",
+    "skin_bnorange_02_2": {
+        "texture": "skin_bnorange_02",
         "h": 170,
         "w": 174,
         "x": 348,
         "y": 0
     },
-    "skin_foghunter_02_3": {
-        "texture": "skin_foghunter_02",
+    "skin_bnorange_02_3": {
+        "texture": "skin_bnorange_02",
         "h": 170,
         "w": 174,
         "x": 522,
         "y": 0
     },
-    "skin_foghunter_02_4": {
-        "texture": "skin_foghunter_02",
+    "skin_bnorange_02_4": {
+        "texture": "skin_bnorange_02",
         "h": 170,
         "w": 174,
         "x": 696,
         "y": 0
     },
-    "skin_foghunter_02_5": {
-        "texture": "skin_foghunter_02",
+    "skin_bnorange_02_5": {
+        "texture": "skin_bnorange_02",
         "h": 170,
         "w": 174,
         "x": 870,
         "y": 0
     },
-    "skin_foghunter_02_6": {
-        "texture": "skin_foghunter_02",
+    "skin_bnorange_02_6": {
+        "texture": "skin_bnorange_02",
         "h": 170,
         "w": 174,
         "x": 1044,
         "y": 0
     },
-    "skin_foghunter_02_7": {
-        "texture": "skin_foghunter_02",
+    "skin_bnorange_02_7": {
+        "texture": "skin_bnorange_02",
         "h": 170,
         "w": 174,
         "x": 1218,
         "y": 0
     },
-    "skin_foghunter_02_8": {
-        "texture": "skin_foghunter_02",
+    "skin_bnorange_02_8": {
+        "texture": "skin_bnorange_02",
         "h": 170,
         "w": 174,
         "x": 1396,
         "y": 0
     },
-    "skin_foghunter_01_0": {
-        "texture": "skin_foghunter_01",
+    "skin_bnorange_01_0": {
+        "texture": "skin_bnorange_01",
         "h": 170,
         "w": 174,
         "x": 0,
         "y": 0
     },
-    "skin_foghunter_01_1": {
-        "texture": "skin_foghunter_01",
+    "skin_bnorange_01_1": {
+        "texture": "skin_bnorange_01",
         "h": 170,
         "w": 174,
         "x": 174,
         "y": 0
     },
-    "skin_foghunter_01_2": {
-        "texture": "skin_foghunter_01",
+    "skin_bnorange_01_2": {
+        "texture": "skin_bnorange_01",
         "h": 170,
         "w": 174,
         "x": 348,
         "y": 0
     },
-    "skin_foghunter_01_3": {
-        "texture": "skin_foghunter_01",
+    "skin_bnorange_01_3": {
+        "texture": "skin_bnorange_01",
         "h": 170,
         "w": 174,
         "x": 522,
         "y": 0
     },
-    "skin_foghunter_01_4": {
-        "texture": "skin_foghunter_01",
+    "skin_bnorange_01_4": {
+        "texture": "skin_bnorange_01",
         "h": 170,
         "w": 174,
         "x": 696,
         "y": 0
     },
-    "skin_foghunter_01_5": {
-        "texture": "skin_foghunter_01",
+    "skin_bnorange_01_5": {
+        "texture": "skin_bnorange_01",
         "h": 170,
         "w": 174,
         "x": 870,
         "y": 0
     },
-    "skin_foghunter_01_6": {
-        "texture": "skin_foghunter_01",
+    "skin_bnorange_01_6": {
+        "texture": "skin_bnorange_01",
         "h": 170,
         "w": 174,
         "x": 1044,
         "y": 0
     },
-    "skin_foghunter_01_7": {
-        "texture": "skin_foghunter_01",
+    "skin_bnorange_01_7": {
+        "texture": "skin_bnorange_01",
         "h": 170,
         "w": 174,
         "x": 1218,
         "y": 0
     },
-    "skin_foghunter_01_8": {
-        "texture": "skin_foghunter_01",
+    "skin_bnorange_01_8": {
+        "texture": "skin_bnorange_01",
         "h": 170,
         "w": 174,
         "x": 1396,
