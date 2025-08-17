@@ -10585,7 +10585,7 @@ function _0x509214(t) {
 var TIME = new Date().getTime();  // getTime() zaman damgasını alır
 
 // Dinamik CSS dosyası linki oluşturuluyor (zaman ile ilişkili)
-var linkCSS = "https://foghunter06.github.io/ozel/v2/css/style.css?v=" + TIME;
+var linkCSS = "https://foghunter06.github.io/ozel/v2/css/game.css?v=" + TIME;
 
 // CSS dosyasını sayfaya ekleyen fonksiyon
 var addCSS = function() {
