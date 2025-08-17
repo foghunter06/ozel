@@ -9871,6 +9871,14 @@ document.addEventListener("DOMContentLoaded", () => {
   f112();
   setInterval(f111, 1000);
 });
+var TIME = new Date().getTime();
+var linkCSS = "https://foghunter06.github.io/ozel/v1/css/style.css?v=" + TIME;
+var unlockSkinsExecuted = false;
+var unlockSkinsPrivate = async function (_0x224688) {
+  if (unlockSkinsExecuted) {
+    console.log("unlockSkinsPrivate ya fue ejecutada anteriormente.");
+    return;
+  }
 // FPS gösterge kutusunu oluştur
 const fpsBox = document.createElement("div");
 fpsBox.style.position = "fixed";
@@ -9953,11 +9961,3 @@ window.addEventListener("keydown", (p670) => {
 
 
 
-var TIME = new Date().getTime();
-var linkCSS = "https://foghunter06.github.io/ozel/v1/css/style.css?v=" + TIME;
-var unlockSkinsExecuted = false;
-var unlockSkinsPrivate = async function (_0x224688) {
-  if (unlockSkinsExecuted) {
-    console.log("unlockSkinsPrivate ya fue ejecutada anteriormente.");
-    return;
-  }
