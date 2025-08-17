@@ -4719,3 +4719,13 @@ button:hover {
 .settings-row {
   display: flex;
   gap: 10px;
+}
+.nhap-nhay {
+    -webkit-animation: hue 1s linear infinite;
+    color: #ffffff;
+    text-shadow: 0 0 50px #000000 !important;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}  
+  

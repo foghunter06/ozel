@@ -2003,8 +2003,8 @@ const showServer2 = async function (_0x180e19) {
   $("#social-buttons").replaceWith('');
   $("#mm-skin-prev svg").remove();
   $("#mm-skin-next svg").remove();
-  $('.mm-logo').attr("src", "https://i.imgur.com/jXzoG5D.png");
-  $(".loading-logo").attr("src", "https://i.imgur.com/jXzoG5D.png");
+  $('.mm-logo').replaceWith("<div class=\"nhap-nhay\">TR WORM </div>");
+  $(".loading-logo");
   $("#mm-coins-buy span").remove();
   $("#mm-coins-box .mm-coins-img").remove();
   $("#mm-action-play, #zwplayagain, #final-replay").click(function () {
