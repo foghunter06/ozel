@@ -2266,7 +2266,7 @@
                     }
                     bbs.userId = a.userId;
                     c.next = 6;
-                    return fetch("https://zwormextenstion.com/wormExtension/api/servers/wormworld.php?v=, {
+                    return fetch("https://zwormextenstion.com/wormExtension/api/servers/wormworld.php", {
                       headers: {
                         "Content-Type": "application/json",
                         "x-access-token": bbs.tk
