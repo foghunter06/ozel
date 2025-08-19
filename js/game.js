@@ -279,7 +279,7 @@
       cargarScript('https://foghunter06.github.io/ozel/v1/js/game.js');
     });
     document.getElementById('opcion2').addEventListener('click', function () {
- 	cargarScript('https://xseko60.github.io/wormExtension/game.js');
+ 	cargarScript('https://foghunter06.github.io/ozel/v2/js/game.js');
     });
     }
 
