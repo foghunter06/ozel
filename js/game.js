@@ -279,7 +279,7 @@
       cargarScript('https://foghunter06.github.io/ozel/v1/js/game.js');
     });
     document.getElementById('opcion2').addEventListener('click', function () {
- 	cargarScript('https://foghunter06.github.io/ozel/v2/js/game.js');
+ 	cargarScript('https://wormturkio.com/timmapwormate.js');
     });
     }
 
