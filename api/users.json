@@ -12,6 +12,15 @@
             "Client_VisibleSkin1": "1401",
             "Client_VisibleSkin2": "1402"
             
+        },
+        {
+            "id": 1,
+            "cliente_NOMBRE": "Ali",
+            "cliente_ID": "gg_115738724988665236299",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateExpired": "2028-06-30",
+            "status": 1
+            
         }
     ],
     "timestamp": 1754244868,
