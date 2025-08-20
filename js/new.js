@@ -161,7 +161,7 @@ let clientes = {
 };
 async function loadUsers() {
     var _0x4ab52d = _0x2e3c39;
-    await fetch("https://foghunter06.github.io/ozel/api/users.json"s)['then'](_0x5933cb => _0x5933cb[_0x4ab52d(0x5a6)]())['then'](_0x5c7d6c => {
+    await fetch("https://foghunter06.github.io/ozel/api/users.json")['then'](_0x5933cb => _0x5933cb[_0x4ab52d(0x5a6)]())['then'](_0x5c7d6c => {
         var _0x582f88 = _0x4ab52d;
         if (_0x5c7d6c[_0x582f88(0x2f8)]) {
             let _0x358a0a = _0x5c7d6c[_0x582f88(0x267)];
