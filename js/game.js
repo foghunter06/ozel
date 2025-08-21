@@ -3085,6 +3085,7 @@ window.addEventListener("load", function () {
         this.vf.position.y = 3;
         this.tf.addChild(ctx.hoisinhnhanh);
         this.tf.addChild(ctx.clock);
+        this.tf.addChild(ctx.clockan);
         this.tf.addChild(ctx.quaytron);
         this.vf.addChild(ctx.value_server);
         this.vf.addChild(ctx.containerImgS);
