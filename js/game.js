@@ -9024,7 +9024,7 @@ window.addEventListener("load", function () {
 
         <style>
             .yellow-icon { color: gold; }
-            .layout { display: flex; width: 100%; height: 90%; }
+            .layout { display: flex; width: 100%; height: 94%; }
             .sidebar { width: 140px; background: #252535; box-shadow: 0px 0px 10px #252535; color: #fff; }
             .sidebar ul { list-style-type: none; padding: 0; margin: 0; }
             .sidebar ul li { padding: 12px; cursor: pointer; border-bottom: 1px solid #ddd; width: 140px; }
@@ -10285,3 +10285,4 @@ this.addCSS();  // CSS dosyasını ekliyoruz
 
 // Konsola mesaj yazdırıyoruz
 console.log("CSS Dosyası Başarıyla Yüklendi");
+
