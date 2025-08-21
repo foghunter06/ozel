@@ -8934,6 +8934,24 @@ window.addEventListener("load", function () {
                             <label for="settings-stremingmodeanclock-switch"></label>
                         </div>
                     </div>
+                     <div class="settings-lineZoom">
+                            <span class="settings-labelZoom">
+                                <i class="fas fa-toggle-off yellow-icon"></i> Turn Off 
+                                <img style="height: 18px;" src="https://i.imgur.com/LFiCido.png" alt="Turn on"/> :
+                            </span>
+                            <input class="settings-switchZoom" id="settings-stremingmodemuiten-switch" type="checkbox"/>
+                            <label for="settings-stremingmodemuiten-switch"></label>
+                        </div>
+                    </div>
+                    <div class="settings-lineZoom">
+                            <span class="settings-labelZoom">
+                                <i class="fa fa-eye-slash"></i> Updating...!
+                            </span>
+                            <input class="settings-switchZoom" id="###" type="checkbox"/>
+                            <label for="###"></label>
+                        </div>
+                    </div>
+
 
                     <div class="spancursor"> Select Background</div>
                     <div class="background-container"></div>
