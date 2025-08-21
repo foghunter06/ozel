@@ -10282,7 +10282,7 @@ width: 40px;
                                 <img style="height: 18px;" src="https://i.imgur.com/cOrk9pM.png" alt="Turn on"/> :
                             </span>;
     float: left;
-    /* position: absolute; */
+    position: absolute;
     height: 40px;
     top: 0;
     left: 0;
