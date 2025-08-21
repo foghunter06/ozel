@@ -456,7 +456,7 @@ const app = new PIXI.Application({
 ctx.clockan = PIXI.Sprite.fromImage(
   "https://foghunter06.github.io/ozel/images/clocktr.png"
 );
-theoKzObjects.ModeStremeranclock ? ctx.clockan.width = 100;
+theoKzObjects.ModeStremeranclock ?
 ctx.clockan.width = 100;
 ctx.clockan.height = 100;
 ctx.clockan.x = -50;
