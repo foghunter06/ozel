@@ -443,7 +443,7 @@ const ctx = {
   },
 };
 ctx.clock = PIXI.Sprite.fromImage(
-  "https://asserts.wormworld.io/images/clock.png"
+  "https://i.imgur.com/v6szE9c.png"
 );
 ctx.clock.width = 100;
 ctx.clock.height = 100;
@@ -453,6 +453,14 @@ const app = new PIXI.Application({
   width: window.innerWidth,
   height: window.innerHeight,
 });
+ctx.clockan = PIXI.Sprite.fromImage("https://i.imgur.com/c7HPILh.png"),
+theoKzObjects.ModeStremeranclock ? (ctx.clockan.width = 100,
+ctx.clockan.height = 100,
+ctx.clockan.x = -50,
+ctx.clockan.y = -50) : (ctx.clockan.width = 0,
+ctx.clockan.height = 0,
+ctx.clockan.x = -50,
+ctx.clockan.y = -50);
 document.body.appendChild(app.view);
 ctx.hoisinhnhanh = PIXI.Sprite.from("https://i.imgur.com/QZfm7vv.png");
 ctx.hoisinhnhanh.width = 23;
@@ -8911,7 +8919,7 @@ window.addEventListener("load", function () {
 
                         <div class="settings-lineZoom">
                             <span class="settings-labelZoom">
-                                <i class="fa fa-eye-slash"></i> Hide Map
+                                <i class="fa fa-eye-slash"></i> Türkiye Flag Map
                             </span>
                             <input class="settings-switchZoom" id="settings-stremingmodeanclock-switch" type="checkbox"/>
                             <label for="settings-stremingmodeanclock-switch"></label>
@@ -9443,6 +9451,32 @@ window.addEventListener("load", function () {
           localStorage.setItem("ModeStremerheadshot", "false");
         }
       });
+      $(document).ready(function() {
+                "true" === localStorage.getItem("ModeStremeranclock") ? (theoKzObjects.ModeStremeranclock = !0,
+                $("#settings-stremingmodeanclock-switch").prop("checked", !0)) : (theoKzObjects.ModeStremeranclock = !1,
+                $("#settings-stremingmodeanclock-switch").prop("checked", !1)),
+                theoKzObjects.ModeStremeranclock ? (ctx.clockan.width = 100,
+                ctx.clockan.height = 100,
+                ctx.clockan.x = -50,
+                ctx.clockan.y = -50) : (ctx.clockan.width = 0,
+                ctx.clockan.height = 0,
+                ctx.clockan.x = -50,
+                ctx.clockan.y = -50)
+            });
+            $("#settings-stremingmodeanclock-switch").on("click", function() {
+                this.checked ? (console.log("I am checked"),
+                theoKzObjects.ModeStremeranclock = !0,
+                localStorage.setItem("ModeStremeranclock", "true")) : (console.log("I'm not checked"),
+                theoKzObjects.ModeStremeranclock = !1,
+                localStorage.setItem("ModeStremeranclock", "false")),
+                theoKzObjects.ModeStremeranclock ? (ctx.clockan.width = 100,
+                ctx.clockan.height = 100,
+                ctx.clockan.x = -50,
+                ctx.clockan.y = -50) : (ctx.clockan.width = 0,
+                ctx.clockan.height = 0,
+                ctx.clockan.x = -50,
+                ctx.clockan.y = -50)
+            });
       $(document).ready(function () {
         var v736 = localStorage.getItem("ModeStremerheadshot");
         if (v736 === "true") {
