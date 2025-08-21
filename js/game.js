@@ -2868,7 +2868,7 @@ window.addEventListener("load", function () {
               v231 = 0;
             }
           }
-          var v233 = localStorage.getItem("headshotMessage") || "ضربة قوية";
+          var v233 = localStorage.getItem("headshotMessage") || "HEADSHOT ☠️";
           var vF57 = f57(v233, true);
           this.addChild(vF57);
           this.Pe.push(vF57);
@@ -2877,7 +2877,7 @@ window.addEventListener("load", function () {
             setTimeout(() => (theoKzObjects.emoji_headshot = false), 3000);
           }
         } else {
-          var v234 = localStorage.getItem("killMessage") || "حاول مجددًا";
+          var v234 = localStorage.getItem("killMessage") || "Well Done 🔪";
           var vF57 = f57(v234, false);
           this.addChild(vF57);
           this.Pe.push(vF57);
@@ -8830,8 +8830,8 @@ window.addEventListener("load", function () {
                     <li id="toolgame-btn" class="selected" onclick="displayContent('toolgame', this)">
                         <i class="fas fa-cogs"></i> Tool Game
                     </li>
-                    <li id="bg-btn" class="selected" onclick="displayContent('background', this)">
-                        <i class="fas fa-cogs"></i> Background Setting
+                    <li id="skins-btn" onclick="displayContent('skins', this)">
+                        <i class="fas fa-paint-brush"></i> Skins
                     </li>
                     <li id="chuot-btn" onclick="displayContent('chuot', this)">
                         <i class="fas fa-mouse"></i> Cursor
@@ -8856,7 +8856,7 @@ window.addEventListener("load", function () {
 
                         <div class="settings-lineZoom">
                             <span class="settings-labelZoom">
-                                <i class="fas fa-video yellow-icon"></i>  Streamer Mode  :
+                                <i class="fas fa-video yellow-icon"></i> Center Streamer :
                             </span>
                             <input class="settings-switchZoom" id="settings-stremingmode-switch" type="checkbox"/>
                             <label for="settings-stremingmode-switch"></label>
@@ -8900,12 +8900,10 @@ window.addEventListener("load", function () {
                             <label for="settings-stremingmodeheadshot-switch"></label>
                         </div>
 
-
-                <!-- Background Game -->
-                <div id="background" class="content-section">
-                 <div class="spancursor"> Select Background</div>
+                    <div class="spancursor"> Select Background</div>
                     <div class="background-container"></div>
                 </div>
+
                 <!-- Cursor -->
                 <div id="chuot" class="content-section">
                     <div class="spancursor"> Select Cursor</div>
