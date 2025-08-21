@@ -8934,21 +8934,21 @@ window.addEventListener("load", function () {
                             <label for="settings-stremingmodeanclock-switch"></label>
                         </div>
                     </div>
-                     <div class="settings-lineZoom">
+                     <div class="settings-row">
+                        <div class="settings-lineZoom">
                             <span class="settings-labelZoom">
-                                <i class="fas fa-toggle-off yellow-icon"></i> Turn Off 
-                                <img style="height: 18px;" src="https://i.imgur.com/LFiCido.png" alt="Turn on"/> :
+                                <i class="fas fa-volume-mute yellow-icon"></i> Off Sounds:
                             </span>
-                            <input class="settings-switchZoom" id="settings-stremingmodemuiten-switch" type="checkbox"/>
-                            <label for="settings-stremingmodemuiten-switch"></label>
+                            <input class="settings-switchZoom" id="settings-stremingmodeheadshot-switch" type="checkbox"/>
+                            <label for="settings-stremingmodeheadshot-switch"></label>
                         </div>
-                    </div>
-                    <div class="settings-lineZoom">
+
+                        <div class="settings-lineZoom">
                             <span class="settings-labelZoom">
-                                <i class="fa fa-eye-slash"></i> Updating...!
+                                <i class="fa fa-eye-slash"></i> Türkiye Flag Map
                             </span>
-                            <input class="settings-switchZoom" id="###" type="checkbox"/>
-                            <label for="###"></label>
+                            <input class="settings-switchZoom" id="settings-stremingmodeanclock-switch" type="checkbox"/>
+                            <label for="settings-stremingmodeanclock-switch"></label>
                         </div>
                     </div>
 
