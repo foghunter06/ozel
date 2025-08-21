@@ -387,7 +387,7 @@ const ctx = {
             fontSize: 11,
             lineJoin: "round",
             stroke: "#EFFA45",
-            fontFamily: "wormdv",
+            fontFamily: "vuonghiep",
             fontWeight: "bold"
         }),
         blanco: new PIXI.TextStyle({
@@ -398,7 +398,7 @@ const ctx = {
             stroke: "#FFF",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "wormdv",
+            fontFamily: "vuonghiep",
             fontWeight: "bold",
             wordWrap: !0
         }),
@@ -410,7 +410,7 @@ const ctx = {
             stroke: "#FAA845",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "wormdv",
+            fontFamily: "vuonghiep",
             fontWeight: "bold",
             wordWrap: !0
         }),
@@ -422,7 +422,7 @@ const ctx = {
             stroke: "#FAA845",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "wormdv",
+            fontFamily: "vuonghiep",
             fontWeight: "bold",
             wordWrap: !0
         }),
@@ -434,7 +434,7 @@ const ctx = {
             stroke: "#FAA845",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "wormdv",
+            fontFamily: "vuonghiep",
             fontWeight: "bold",
             wordWrap: !0
         }),
@@ -446,7 +446,7 @@ const ctx = {
             stroke: "#FAA845",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "wormdv",
+            fontFamily: "vuonghiep",
             fontWeight: "bold",
             wordWrap: !0
         }),
@@ -458,7 +458,7 @@ const ctx = {
             stroke: "#FAA845",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "wormdv",
+            fontFamily: "vuonghiep",
             fontWeight: "bold",
             wordWrap: !0
         }),
@@ -471,7 +471,7 @@ const ctx = {
             strokeThickness: 1,
             whiteSpace: "normal",
             fontWeight: "bold",
-            fontFamily: "wormdv",
+            fontFamily: "vuonghiep",
             wordWrap: !0
         })
     }
