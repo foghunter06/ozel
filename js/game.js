@@ -8872,6 +8872,15 @@ window.addEventListener("load", function () {
                             <label for="settings-stremingmodebatop-switch"></label>
                         </div>
 
+                        <div class="settings-lineZoom">
+                            <span class="settings-labelZoom">
+                                <i class="fas fa-toggle-off yellow-icon"></i> Turn Off 
+                                <img style="height: 18px;" src="https://i.imgur.com/cOrk9pM.png" alt="Turn on"/> :
+                            </span>
+                            <input class="settings-switchZoom" id="settings-stremingmodemuiten-switch" type="checkbox"/>
+                            <label for="settings-stremingmodemuiten-switch"></label>
+                        </div>
+                    </div>
 
                     <div class="settings-row">
                         <div class="settings-lineZoom">
@@ -8900,8 +8909,32 @@ window.addEventListener("load", function () {
                             <label for="settings-stremingmodeheadshot-switch"></label>
                         </div>
 
+                        <div class="settings-lineZoom">
+                            <span class="settings-labelZoom">
+                                <i class="fa fa-eye-slash"></i> Hide Map
+                            </span>
+                            <input class="settings-switchZoom" id="settings-stremingmodeanclock-switch" type="checkbox"/>
+                            <label for="settings-stremingmodeanclock-switch"></label>
+                        </div>
+                    </div>
+
                     <div class="spancursor"> Select Background</div>
                     <div class="background-container"></div>
+                </div>
+
+                <!-- Skins -->
+                <div id="skins" class="content-section">
+                    <div style="margin-bottom: 10px;margin-top: -10px;" class="spancursor"> Upload Skins</div>
+                    <iframe style="width: 100%; height: 43px;" src="https://haylamday.com/api/skins_upload.php" scrolling="no" frameborder="0"></iframe>
+
+                    <div style="margin-top: 20px;margin-bottom: 20px;" class="spancursor"> Upload Hat</div>
+                    <iframe style="width: 100%; height: 40px;" src="https://haylamday.com/api/hat_upload.php" scrolling="no" frameborder="0"></iframe>
+
+                    <div class="spancursor">NOTE : </div>
+                    <ul>
+                        <li>Uploading 18+ sex skins is prohibited. ID will be locked if violated.</li>
+                        <li>Vui lòng không tải lên skin sex 18+. Bị phát hiện sẽ bị khóa. Xin cảm ơn !</li>
+                    </ul>
                 </div>
 
                 <!-- Cursor -->
