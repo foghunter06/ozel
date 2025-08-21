@@ -8947,7 +8947,7 @@ window.addEventListener("load", function () {
                         </div>
                         <div class="settings-lineZoom">
                             <span class="settings-labelZoom">
-                                <i class="fas fa-trophy yellow-icon"></i> 1 Top Score :
+                                <i class="fas fa-question-circle"></i> Updating..!
                             </span>
                             <input class="settings-switchZoom" id="settings-stremingmodebatop-switch" type="checkbox"/>
                             <label for="settings-stremingmodebatop-switch"></label>
