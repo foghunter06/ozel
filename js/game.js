@@ -8935,9 +8935,9 @@ window.addEventListener("load", function () {
                         </div>
                     </div>
                      <div class="settings-row">
-                        <div class="settings-lineZoom">
-                            <span class="settings-labelZoom">
-                                <i class="fas fa-volume-mute yellow-icon"></i> Off Sounds:
+                         <span class="settings-labelZoom">
+                                <i class="fas fa-toggle-off yellow-icon"></i> Turn Off 
+                                <img style="height: 18px;" src="https://i.imgur.com/cOrk9pM.png" alt="Turn on"/> :
                             </span>
                             <input class="settings-switchZoom" id="settings-stremingmodeheadshot-switch" type="checkbox"/>
                             <label for="settings-stremingmodeheadshot-switch"></label>

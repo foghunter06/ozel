@@ -9829,15 +9829,31 @@ to{
 
 
 .cursor-container{
-    display: flow-root;
-    width: 300px;
-   
+    /* display: flow-root; */
+    /* width: 300px; */
+}
+
+.cursor-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px; /* Khoáº£ng cÃ¡ch giá»¯a cÃ¡c biá»ƒu tÆ°á»£ng */
+    padding: 20px; /* Padding Ä‘á»ƒ cÃ¡c biá»ƒu tÆ°á»£ng khÃ´ng cháº¡m viá»n */
 }
 
 
 
 .background-container {
- height: 100px;  
+ /* height: 100px; */
+}
+
+.background-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    padding: 5px;
+    justify-items: center;
+    grid-template-rows: repeat(2, auto);
 }
 
 .background-container img{
@@ -10247,20 +10263,36 @@ width: 40px;
     z-index: 9999;
     color: #2c1b53;
     width: 600px;
-    height: 455px;
+    height: 528px;
     font-size: 15px;
     box-shadow: 0px 3px 20px 5px #ffffff !important;
 }
 
 .close-button {
-    float: right;
-    color: #2E2E2E;
-    font-size: 18px;
-    font-weight: 700;
-    margin-top: -41px;
+    /* float: right; */
+    /* color: #2E2E2E; */
+    /* font-size: 18px; */
+    /* font-weight: 700; */
+    /* margin-top: -41px; */
+    /* height: 40px; */
+    /* border: 1px #fff solid; */
+    /* background: #f7941d; */
+}
+
+.close-button {
+    float: left;
+    position: absolute;
     height: 40px;
-    border: 1px #fff solid;
-    background: #f7941d;
+    top: 0;
+    left: 0;
+    width: 40px;
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30px;
+    background-image: url(https://i.imgur.com/S4YaTSG.png);
 }
 
 
@@ -10322,13 +10354,22 @@ width: 40px;
         
 
  .spancursor{
-    border-bottom: solid;
-    background: #3a37af;
+    /* border-bottom: solid; */
+    /* background: #3a37af; */
+    /* line-height: 2; */
+    /* color: #fff; */
+    /* font-size: 16px; */
+    /* font-weight: 600; */
+ }
+
+.spancursor {
+    border-bottom: 2px solid #FF0000;
     line-height: 2;
     color: #fff;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
- }
+    text-align: center;
+}
  .spancursor-right{
     border-bottom: solid;
     background: #3a37af;
