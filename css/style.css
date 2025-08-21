@@ -10597,6 +10597,7 @@ input.fullscreen_button {
     display: flex;
     gap: 10px; /* KhoÃ¡ÂºÂ£ng cÃƒÂ¡ch giÃ¡Â»Â¯a cÃƒÂ¡c phÃ¡ÂºÂ§n tÃ¡Â»Â­ trong mÃ¡Â»â„¢t hÃƒÂ ng */
     flex-wrap: wrap; /* Ã„ÂÃ¡ÂºÂ£m bÃ¡ÂºÂ£o cÃƒÂ¡c phÃ¡ÂºÂ§n tÃ¡Â»Â­ sÃ¡ÂºÂ½ tÃ¡Â»Â± Ã„â€˜Ã¡Â»â„¢ng xuÃ¡Â»â€˜ng dÃƒÂ²ng nÃ¡ÂºÂ¿u khÃƒÂ´ng Ã„â€˜Ã¡Â»Â§ chÃ¡Â»â€” */
+    flex-direction: column;
 }
 
 
