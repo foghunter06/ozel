@@ -4505,8 +4505,9 @@ window.addEventListener("load", function () {
           128
         );
         this.Ph = new vF32(v426, 158,86,67,124,148,63.5,128,128);
-         if (theoKzObjects.ModeStremermuiten) {
+        if (theoKzObjects.ModeStremermuiten) {
           this.Qh = new vF32(v426, 158, 4, 87, 74, 203, 63.5, 128, 128);
+        } else {}
         this.Rh = new vF32(v430, 156, 140, 87, 60, 170, 128.5, 128, 128);
         this.Ug = (function () {
           var v431 = window.document.createElement("canvas");
