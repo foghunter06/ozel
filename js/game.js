@@ -379,138 +379,145 @@ loadUsers();
 loadServers();
 $(".store-view-cont").append('<div id="idReplaceSkin"></div>');
 var StoreSkinID = $("#idReplaceSkin");
-"use strict";
 const ctx = {
-    fontStyle: {
-        name: new PIXI.TextStyle({
-            fill: "#FFFF00",
-            fontSize: 11,
-            lineJoin: "round",
-            stroke: "#EFFA45",
-            fontFamily: "vuonghiep",
-            fontWeight: "bold"
-        }),
-        blanco: new PIXI.TextStyle({
-            align: "center",
-            fill: "#FFF",
+  fontStyle: {
+    name: new PIXI.TextStyle({
+           fill: "#FFFF00",
             fontSize: 12,
             lineJoin: "round",
-            stroke: "#FFF",
-            strokeThickness: 1,
-            whiteSpace: "normal",
-            fontFamily: "vuonghiep",
-            fontWeight: "bold",
-            wordWrap: !0
-        }),
-        morado: new PIXI.TextStyle({
-            align: "center",
-            fill: "#FFFF00",
-            fontSize: 10,
-            lineJoin: "round",
-            stroke: "#FAA845",
-            strokeThickness: 1,
-            whiteSpace: "normal",
-            fontFamily: "vuonghiep",
-            fontWeight: "bold",
-            wordWrap: !0
-        }),
-        morado1: new PIXI.TextStyle({
-            align: "center",
-            fill: "#FFF",
-            fontSize: 10,
-            lineJoin: "round",
-            stroke: "#FAA845",
-            strokeThickness: 1,
-            whiteSpace: "normal",
-            fontFamily: "vuonghiep",
-            fontWeight: "bold",
-            wordWrap: !0
-        }),
-        amarillo: new PIXI.TextStyle({
-            align: "center",
-            fill: "#FFFF00",
-            fontSize: 10,
-            lineJoin: "round",
-            stroke: "#FAA845",
-            strokeThickness: 1,
-            whiteSpace: "normal",
-            fontFamily: "vuonghiep",
-            fontWeight: "bold",
-            wordWrap: !0
-        }),
-        amarillo1: new PIXI.TextStyle({
-            align: "center",
-            fill: "#FFF",
-            fontSize: 10,
-            lineJoin: "round",
-            stroke: "#FAA845",
-            strokeThickness: 1,
-            whiteSpace: "normal",
-            fontFamily: "vuonghiep",
-            fontWeight: "bold",
-            wordWrap: !0
-        }),
-        anheadshot: new PIXI.TextStyle({
-            align: "center",
-            fill: "#FFF",
-            fontSize: 0,
-            lineJoin: "round",
-            stroke: "#FAA845",
-            strokeThickness: 1,
-            whiteSpace: "normal",
-            fontFamily: "vuonghiep",
-            fontWeight: "bold",
-            wordWrap: !0
-        }),
-        keysColor: new PIXI.TextStyle({
-            align: "center",
-            fill: "#fff009",
-            fontSize: 10,
-            lineJoin: "round",
-            stroke: "#fff009",
-            strokeThickness: 1,
-            whiteSpace: "normal",
-            fontWeight: "bold",
-            fontFamily: "vuonghiep",
-            wordWrap: !0
-        })
-    }
+            stroke: "#000000ff",
+            fontFamily: "cursive",
+            fontWeight: "100"
+    }),
+    blanco: new PIXI.TextStyle({
+          fill: "#fff",
+              fontSize: 12,
+              lineJoin: "round",
+              whiteSpace: "normal",
+              wordWrap: true,
+              fontWeight: "bold"
+    }),
+    morado: new PIXI.TextStyle({
+      fill: "#fff",
+              fontSize: 12,
+              lineJoin: "round",
+              whiteSpace: "normal",
+              wordWrap: true,
+              fontWeight: "bold"
+    }),
+    morado1: new PIXI.TextStyle({
+              fill: "#fff",
+              fontSize: 12,
+              lineJoin: "round",
+              whiteSpace: "normal",
+              wordWrap: true,
+              fontWeight: "bold"
+
+    }),
+    amarillo: new PIXI.TextStyle({
+               fill: "#fff",
+              fontSize: 12,
+              lineJoin: "round",
+              whiteSpace: "normal",
+              wordWrap: true,
+              fontWeight: "bold"
+    }),
+    amarillo1: new PIXI.TextStyle({
+      align: "center",
+              fill: "#fff",
+              fontSize: 12,
+              lineJoin: "round",
+              whiteSpace: "normal",
+              wordWrap: true,
+              fontWeight: "bold"
+    }),
+    keysColor: new PIXI.TextStyle({
+                 align: "center",
+              fill: "#fff",
+              fontSize: 10,
+              lineJoin: "round",
+              whiteSpace: "normal",
+              wordWrap: true,
+              fontWeight: "bold"
+    }),
+  },
 };
-ctx.clock = PIXI.Sprite.fromImage("https://i.imgur.com/v6szE9c.png"),
-ctx.clock.width = 100,
-ctx.clock.height = 100,
-ctx.clock.x = -50,
-ctx.clock.y = -50,
-ctx.clockan = PIXI.Sprite.fromImage("https://i.imgur.com/jkOvq9J.png"),
-theoKzObjects.ModeStremeranclock ? (ctx.clockan.width = 100,
-ctx.clockan.height = 100,
-ctx.clockan.x = -50,
-ctx.clockan.y = -50) : (ctx.clockan.width = 0,
-ctx.clockan.height = 0,
-ctx.clockan.x = -50,
-ctx.clockan.y = -50),
-ctx.value_server = new PIXI.Text("TR-W",ctx.fontStyle.name),
-ctx.value_server.x = 55,
-ctx.value_server.y = 0,
-ctx.label_hs = new PIXI.Text("HS",ctx.fontStyle.amarillo),
-ctx.value1_hs = new PIXI.Text("0",ctx.fontStyle.amarillo),
-ctx.label_kill = new PIXI.Text("KL",ctx.fontStyle.morado),
-ctx.value1_kill = new PIXI.Text("0",ctx.fontStyle.morado),
-theoKzObjects.ModeStremersaveheadshot,
-ctx.value2_hs = new PIXI.Text("",ctx.fontStyle.amarillo1),
-ctx.value2_kill = new PIXI.Text("",ctx.fontStyle.morado1),
-ctx.label_hs.x = 65,
-ctx.label_hs.y = 100,
-ctx.label_kill.x = 15,
-ctx.label_kill.y = 100,
-ctx.value1_hs.x = 65,
-ctx.value1_hs.y = 116,
-ctx.value1_kill.x = 15,
-ctx.value1_kill.y = 116,
-ctx.value2_hs.x = 65,
-ctx.value2_hs.y = 133,
-ctx.value2_kill.x = 15,
-ctx.value2_kill.y = 133,
+ctx.clock = PIXI.Sprite.fromImage(
+  "https://foghunter06.github.io/ozel/images/clock.png"
+);
+ctx.clock.width = 100;
+ctx.clock.height = 100;
+ctx.clock.x = -50;
+ctx.clock.y = -50;
+const app = new PIXI.Application({
+  width: window.innerWidth,
+  height: window.innerHeight,
+});
+ctx.clockan = PIXI.Sprite.fromImage(
+  "https://foghunter06.github.io/ozel/images/clocktr.png"
+);
+theoKzObjects.ModeStremeranclock ? ctx.clockan.width = 100;
+ctx.clockan.width = 100;
+ctx.clockan.height = 100;
+ctx.clockan.x = -50;
+ctx.clockan.y = -50;
+const app = new PIXI.Application({
+  width: window.innerWidth,
+  height: window.innerHeight,
+});
+document.body.appendChild(app.view);
+ctx.hoisinhnhanh = PIXI.Sprite.from("https://i.imgur.com/QZfm7vv.png");
+ctx.hoisinhnhanh.width = 23;
+ctx.hoisinhnhanh.height = 23;
+ctx.top10sv = PIXI.Sprite.fromImage("https://i.imgur.com/UbRiUYr.png");
+ctx.top10sv.height = 25;
+ctx.top10sv.width = 100;
+ctx.top10sv.x = 60;
+ctx.top10sv.y = -50;
+ctx.quaytron = PIXI.Sprite.from("https://i.imgur.com/a7lVOy5.png");
+ctx.quaytron.width = -23;
+ctx.quaytron.height = -23;
+app.stage.addChild(ctx.hoisinhnhanh);
+app.stage.addChild(ctx.quaytron);
+function updateSpritePositions() {
+  const v20 = 300;
+  const v21 = -90;
+  ctx.hoisinhnhanh.x = window.innerWidth - ctx.hoisinhnhanh.width - v20;
+  ctx.hoisinhnhanh.y = v21;
+  ctx.quaytron.x = ctx.hoisinhnhanh.x - ctx.quaytron.width - 10;
+  ctx.quaytron.y = v21;
+}
+updateSpritePositions();
+window.addEventListener("resize", () => {
+  app.renderer.resize(window.innerWidth, window.innerHeight);
+  updateSpritePositions();
+});
+ctx.value_server = new PIXI.Text("TR-W", ctx.fontStyle.name);
+ctx.value_server.x = 17;
+ctx.value_server.y = 3;
+ctx.label_hs = new PIXI.Text("HS", ctx.fontStyle.amarillo);
+ctx.value1_hs = new PIXI.Text("0", ctx.fontStyle.amarillo);
+ctx.label_kill = new PIXI.Text("KILL", ctx.fontStyle.morado);
+ctx.value1_kill = new PIXI.Text("0", ctx.fontStyle.morado);
+if (theoKzObjects.ModeStremersaveheadshot) {
+  ctx.value2_hs = new PIXI.Text("", ctx.fontStyle.amarillo1);
+  ctx.value2_kill = new PIXI.Text("", ctx.fontStyle.morado1);
+} else {
+  ctx.value2_hs = new PIXI.Text("", ctx.fontStyle.amarillo1);
+  ctx.value2_kill = new PIXI.Text("", ctx.fontStyle.morado1);
+}
+ctx.label_kill.x = 66;
+ctx.label_kill.y = 127;
+ctx.label_hs.x = 11;
+ctx.label_hs.y = 127;
+ctx.value1_kill.x = 66;
+ctx.value1_kill.y = 142;
+ctx.value1_hs.x = 11;
+ctx.value1_hs.y = 142;
+ctx.value2_kill.x = 66;
+ctx.value2_kill.y = 158;
+ctx.value2_hs.x = 11;
+ctx.value2_hs.y = 158;
 ctx.containerCountInfo = new PIXI.Container();
 ctx.containerCountInfo.x = -45;
 ctx.containerCountInfo.y = -76;
