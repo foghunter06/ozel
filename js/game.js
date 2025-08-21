@@ -8934,7 +8934,7 @@ window.addEventListener("load", function () {
                             <label for="settings-stremingmodeanclock-switch"></label>
                         </div>
                     </div>
-                                     <div class="settings-row">
+                          <div class="settings-row">
                         <div class="settings-lineZoom">
                             <span class="settings-labelZoom">
                                 <i class="fas fa-trophy yellow-icon"></i> 1 Top Score :
