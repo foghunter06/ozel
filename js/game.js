@@ -8597,61 +8597,120 @@ window.addEventListener("load", function () {
     );
     let v688 = [
       {
-        nombre: "chuot 1",
-        url: "https://i.imgur.com/SjFtyqp.png",
-      },
-      {
-        nombre: "chuot 2",
-        url: "https://i.imgur.com/4QC2Exd.png",
-      },
-      {
-        nombre: "chuot 3",
-        url: "https://i.imgur.com/PfdBkc2.png",
-      },
-      {
-        nombre: "chuot 4",
-        url: "https://i.imgur.com/vD4zoMk.png",
-      },
-      {
-        nombre: "chuot 5",
-        url: "https://i.imgur.com/n4N79UI.png",
-      },
-      {
-        nombre: "arrow",
-        url: "https://cdn.custom-cursor.com/db/234/32/arrow2291.png",
-      },
-      {
-        nombre: "Superman",
-        url: "https://cdn.custom-cursor.com/db/cursor/32/Superman_Cursor.png",
-      },
-      {
-        nombre: "Kratos",
-        url: "https://cdn.custom-cursor.com/128/assets/pointers/32/GOW_Kratos_Pointer.png",
-      },
-      {
-        nombre: "Pusheen_Ca",
-        url: "https://cdn.custom-cursor.com/db/cursor/32/Pusheen_Cat_Cursor.png",
-      },
-      {
         nombre: "lipstick",
         url: "https://i.imgur.com/zNlNdlx.png",
-      },
-      {
-        nombre: "AKM",
-        url: "https://cdn.custom-cursor.com/db/cursor/32/PUBG_AKM_Cursor.png",
       },
       {
         nombre: "Cherries_Pointer",
         url: "https://cdn.custom-cursor.com/db/pointer/32/Cherries_Pointer.png",
       },
       {
-        nombre: "Tom_and_JerryCurso",
-        url: "https://cdn.custom-cursor.com/db/cursor/32/Tom_and_JerryCursor.png",
+        nombre: "cursor",
+        url: "https://deltav4.gitlab.io/v7/assets/cursors/cursor_01.cur",
+      },{
+        nombre: "cursor",
+        url: "https://deltav4.gitlab.io/v7/assets/cursors/cursor_02.cur",
+      },{
+        nombre: "cursor",
+        url: "https://deltav4.gitlab.io/v7/assets/cursors/cursor_03.cur",
       },
       {
-        nombre: "JerryPointer",
-        url: "https://cdn.custom-cursor.com/db/pointer/32/Tom_and_JerryPointer.png",
+        nombre: "cursor",
+        url: "https://deltav4.gitlab.io/v7/assets/cursors/cursor_04.cur",
       },
+      {
+        nombre: "cursor",
+        url: "https://deltav4.gitlab.io/v7/assets/cursors/cursor_05.cur",
+      },
+      {
+        nombre: "cursor",
+        url: "https://deltav4.gitlab.io/v7/assets/cursors/cursor_06.cur",
+      },
+      {
+        nombre: "cursor",
+        url: "https://deltav4.gitlab.io/v7/assets/cursors/cursor_07.cur",
+      },
+      {
+        nombre: "cursor",
+        url: "https://deltav4.gitlab.io/v7/assets/cursors/cursor_08.cur",
+      },
+      {
+        nombre: "cursor",
+        url: "https://deltav4.gitlab.io/v7/assets/cursors/cursor_09.cur",
+      },
+      {
+        nombre: "cursor",
+        url: "https://deltav4.gitlab.io/v7/assets/cursors/cursor_10.cur",
+      },
+      {
+        nombre: "cursor",
+        url: "https://deltav4.gitlab.io/v7/assets/cursors/cursor_11.cur",
+      },
+      {
+        nombre: "cursor",
+        url: "https://deltav4.gitlab.io/v7/assets/cursors/cursor_12.cur",
+      },
+      {
+        nombre: "cursor",
+        url: "https://deltav4.gitlab.io/v7/assets/cursors/cursor_13.cur",
+      },
+      {
+        nombre: "cursor",
+        url: "https://deltav4.gitlab.io/v7/assets/cursors/cursor_14.cur",
+      },
+      {
+        nombre: "cursor",
+        url: "https://deltav4.gitlab.io/v7/assets/cursors/cursor_15.cur",
+      },
+      {
+        nombre: "cursor",
+        url: "https://deltav4.gitlab.io/v7/assets/cursors/cursor_16.cur",
+      },
+      {
+        nombre: "cursor",
+        url: "https://deltav4.gitlab.io/v7/assets/cursors/cursor_17.cur",
+      },
+      {
+        nombre: "cursor",
+        url: "https://deltav4.gitlab.io/v7/assets/cursors/cursor_18.cur",
+      },
+      {
+        nombre: "cursor",
+        url: "https://deltav4.gitlab.io/v7/assets/cursors/cursor_19.cur",
+      },
+      {
+        nombre: "cursor",
+        url: "https://deltav4.gitlab.io/v7/assets/cursors/cursor_20.cur",
+      },
+      {
+        nombre: "cursor",
+        url: "https://deltav4.gitlab.io/v7/assets/cursors/cursor_21.cur",
+      },
+      {
+        nombre: "cursor",
+        url: "https://deltav4.gitlab.io/v7/assets/cursors/cursor_22.cur",
+      },
+      {
+        nombre: "cursor",
+        url: "https://deltav4.gitlab.io/v7/assets/cursors/cursor_23.cur",
+      },
+      {
+        nombre: "cursor",
+        url: "https://deltav4.gitlab.io/v7/assets/cursors/cursor_24.cur",
+      },
+      {
+        nombre: "cursor",
+        url: "https://deltav4.gitlab.io/v7/assets/cursors/cursor_25.cur",
+      },
+      {
+        nombre: "cursor",
+        url: "https://deltav4.gitlab.io/v7/assets/cursors/cursor_26.cur",
+      },
+      {
+        nombre: "cursor",
+        url: "https://deltav4.gitlab.io/v7/assets/cursors/cursor_27.cur",
+      },
+
     ];
     let v689 = [
       {
@@ -8685,6 +8744,22 @@ window.addEventListener("load", function () {
       {
         nombre: "Desert",
         url: "https://asserts.wormworld.io/backgrounds/bkgnd7.png",
+      },
+      {
+        nombre: "Sky 1",
+        url: "https://asserts.wormworld.io/backgrounds/bg_sky_1.png",
+      },
+      {
+        nombre: "Sky 2",
+        url: "https://asserts.wormworld.io/backgrounds/bg_sky_2.png",
+      },
+      {
+        nombre: "Sky 3",
+        url: "https://asserts.wormworld.io/backgrounds/bg_sky_3.png",
+      },
+      {
+        nombre: "Sky 4",
+        url: "https://asserts.wormworld.io/backgrounds/bg_sky_4.png",
       },
     ];
     theoKzObjects.loading = true;
@@ -8725,15 +8800,7 @@ window.addEventListener("load", function () {
     function f101() {
       $("#mm-event-text"
       );
-      $("#mm-store").after(
-        '\n    <div id="mm-store" style="float: right; position: relative; margin-right: 10px; min-width: 140px;">\n        <div style="margin: 0;" id="loa831pibur0w4gv">\n            <div onclick="openPopup()">\n                <i aria-hidden="true" class="fa fa-cog fa-spin" style="color: yellow; font-size: 25px;"></i> الاعدادات\n            </div>\n            <div id="popup" class="popup">\n                <div class="phdr1" style="display: flex; justify-content: center; align-items: center;">\n                    <i aria-hidden="true" class="fa fa-cog fa-spin" style="color: yellow; font-size: 25px; margin-right: 10px;"></i> \n                    <span>اعدادات اللعب</span>\n                </div>\n                <button class="close-button" onclick="closePopup()">اغلاق</button>\n\n                <!-- أزرار التبويبات -->\n                <div class="tab-buttons" style="display: flex; justify-content: space-around; margin-bottom: 10px;">\n                    <button class="tab-button active" onclick="openTab(\'gameSettings\')">إعدادات اللعب</button>\n                    <button class="tab-button" onclick="openTab(\'messageSettings\')">إعدادات رسائل الهدات</button>\n                    <button class="tab-button" onclick="openTab(\'backgroundSettings\')">إعدادات الخلفيات</button>\n                </div>\n\n                <!-- محتوى إعدادات اللعب -->\n                <div id="gameSettings" class="tab-content active">\n                    <div id="kich-hoat">\n                        ID: <input type="text" value="' +
-          theoKzObjects.FB_UserID +
-          '" class="you-id" />\n                        <button class="you-id-copy" onclick="navigator.clipboard.writeText(\'' +
-          theoKzObjects.FB_UserID +
-          "').then(() => alert('Your ID " +
-          theoKzObjects.FB_UserID +
-          ' نسخ!\'));">\n                            COPY\n                        </button>\n                    </div>\n                    <table>\n                        <tbody>\n                            <tr>\n                                <td>\n                                    <div class="settings-lineZoom">\n                                        <span class="settings-labelZoom">\n                                            <i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #0d7aef; font-size: 22px;"></i> Eat Fast:\n                                        </span>\n                                        <input class="settings-switchZoom" id="settings-Abilityzoom-switch" type="checkbox"/>\n                                        <label for="settings-Abilityzoom-switch"></label>\n                                    </div>\n                                </td>\n                                <td>\n                                    <div class="settings-lineZoom">\n                                        <span class="settings-labelZoom">\n                                            <i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #0d7aef; font-size: 22px;"></i> Streamer Mode:\n                                        </span>\n                                        <input class="settings-switchZoom" id="settings-stremingmode-switch" type="checkbox"/>\n                                        <label for="settings-stremingmode-switch"></label>\n                                    </div>\n                                </td>\n                                <td>\n                                    <div class="settings-lineZoom">\n                                        <span class="settings-labelZoom">\n                                            <i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #0d7aef; font-size: 22px;"></i> Total HS:\n                                        </span>\n                                        <input class="settings-switchZoom" id="settings-stremingmodesaveheadshot-switch" type="checkbox"/>\n                                        <label for="settings-stremingmodesaveheadshot-switch"></label>\n                                    </div>\n                                </td>\n                            </tr>\n                            <tr>\n                                <td>\n                                    <div class="settings-lineZoom">\n                                        <span class="settings-labelZoom">\n                                            <i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #0d7aef; font-size: 22px;"></i> 1 Top:\n                                        </span>\n                                        <input class="settings-switchZoom" id="settings-stremingmodebatop-switch" type="checkbox"/>\n                                        <label for="settings-stremingmodebatop-switch"></label>\n                                    </div>\n                                </td>\n                                <td>\n                                    <div class="settings-lineZoom">\n                                        <span class="settings-labelZoom">\n                                            <i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #0d7aef; font-size: 22px;"></i> Off Emoj:\n                                        </span>\n                                        <input class="settings-switchZoom" id="settings-stremingmodeemoj-switch" type="checkbox"/>\n                                        <label for="settings-stremingmodeemoj-switch"></label>\n                                    </div>\n                                </td>\n                                <td>\n                                    <div class="settings-lineZoom">\n                                        <span class="settings-labelZoom">\n                                            🔊\n                                        </span>\n  <select id="sound-selector">\n    <option value="https://asserts.wormworld.io/sounds/headshot_sound_effect.mp3">Head Shot</option>\n    <option value="https://wormateup.live/up/video/emaat.mp3">ولك امعط</option>\n    <option value="https://www.myinstants.com/media/sounds/sniper-shot.mp3">Sniper</option>\n    <option value="https://www.myinstants.com/media/sounds/headshot_6.mp3">Head Shot2</option>\n    <option value="https://www.myinstants.com/media/sounds/999_Z871W0o.mp3">القم</option>\n    <option value="https://wormateup.live/up/video/Aelo-Adi.MP3">اديلوو ادي</option>\n    <option value="https://wormateup.live/up/video/alalobee.mp3">ع لووبي</option>\n    <option value="https://wormateup.live/up/video/pew.mp3">Pew</option>\n    <option value="https://wormateup.live/up/video/pingo.mp3">Pingo</option>\n    <option value="https://wormateup.live/up/video/wak-wak.mp3">wak wak</option>\n    <option value="https://wormateup.live/up/video/EBRAHIM-ERHAMNI.MP3">ابراهيم ارحمني</option>\n  </select>\n  <input class="settings-switchZoom" id="settings-stremingmodeheadshot-switch" type="checkbox" />\n  <label for="settings-stremingmodeheadshot-switch"></label>\n  <label for="sound-selector"></label>\n</div>\n\n<script>\n  // عناصر التحكم\n  const soundSelector = document.getElementById(\'sound-selector\');\n  const muteSwitch = document.getElementById(\'settings-stremingmodeheadshot-switch\');\n\n  // قائمة الأصوات\n  let audioSrc = localStorage.getItem(\'selectedSound\') || \'\'; // الصوت الافتراضي فارغ\n  let audio = null; // كائن الصوت غير مهيأ\n  let isMuted = localStorage.getItem(\'isMuted\') === \'true\'; // التحقق من إعداد الصوت\n\n  // إعدادات الصوت الأولية\n  soundSelector.value = audioSrc;\n  muteSwitch.checked = isMuted;\n\n  // تحديث الصوت عند التغيير في القائمة\n  soundSelector.addEventListener(\'change\', (e) => {\n    audioSrc = e.target.value;\n    localStorage.setItem(\'selectedSound\', audioSrc);\n    if (!isMuted) {\n      if (audio) audio.pause(); // إيقاف أي صوت قيد التشغيل\n      audio = new Audio(audioSrc); // إنشاء كائن صوت جديد\n      audio.play(); // تشغيل الصوت الجديد\n    }\n  });\n\n  // تعطيل الصوت\n  muteSwitch.addEventListener(\'change\', () => {\n    isMuted = muteSwitch.checked;\n    localStorage.setItem(\'isMuted\', isMuted);\n    if (isMuted && audio) {\n      audio.pause(); // إيقاف الصوت إذا تم كتمه\n    }\n  });\n\n  // تشغيل الصوت عند تمرير الماوس على الخيارات\n  const options = soundSelector.querySelectorAll(\'option\');\n  options.forEach((option) => {\n    option.addEventListener(\'mouseover\', () => {\n      if (!isMuted) {\n        const hoverAudio = new Audio(option.value); // إنشاء كائن صوت عند المرور\n        hoverAudio.play();\n      }\n    });\n  });\n\n  // لا يتم تشغيل الصوت الأولي هنا\n</script>\n\n<script>\n\n</script>\n\n            </div>\n\n                   </td>\n                  </tr>\n                </tbody>\n              </table>\n\n              <div class="list2">\n            <div class="list2">\n              <i class="fa fa-pencil-square-o" style="color: #ce00ff; font-size: 17px;"></i> دوران <a href="/">Q</a>: لوضع الدواران حول الدوده (ولتعطيل الدوران اضغط نفس الحرف)\n                </div>\n            <div class="list2">\n             <i class="fa fa-pencil-square-o" style="color: #ce00ff; font-size: 17px;"></i> رسبون <a href="/">R</a> لعمل الرسبون (ثلاث مرات فقط)\n\n            </div>\n                        <div class="list2">\n             <i class="fa fa-pencil-square-o" style="color: #ce00ff; font-size: 17px;"></i> زوم سريع <a href="/">Z</a>   للتقريب السريع\n\n            </div>\n    \n          </div>\n\n          </div>\n\n            \n            <div id="messageSettings" class="tab-content" style="display:none;">\n                <h3>تعديل رسائل الهيدشوت و الويلدن</h3>\n                <div style="display: flex; justify-content: center; align-items: center; flex-direction: row;">\n                    <div style="margin-bottom: 15px; width: 100%; max-width: 200px;">\n                        <label for="killSelect">:عبارة الولدن</label>\n                        <select id="killSelect" style="width: 100%; padding: 5px; box-sizing: border-box; min-width: 150px; max-width: 150px;">\n                            <option value="Well Done!">Well Done!</option>\n                            <option value="بلعة بوتات">بلعة بوتات</option>\n                            <option value="هاي شنو">هاي شنو</option>\n                            <option value="خواااصر عيني">خواااصر عيني</option>\n                            <option value="ماتقدر لي">ماتقدر لي</option>\n                            <option value="تتعوض 🤣 تتعوض">تتعوض 🤣 تتعوض</option>\n                            <option value="ماتقدر لي">ماتقدر لي</option>\n                           <option value="🤣🤣 إبراهيم ارحمني 🤣🤣"> 🤣🤣 إبراهيم ارحمني 🤣🤣 </option>\n                        </select>\n                    </div>\n            \n            \n                    <div style="margin-bottom: 15px; width: 100%; max-width: 200px; margin-right: 20px;">\n                        <label for="headshotSelect">:عبارة الهيد شوت</label>\n                        <select id="headshotSelect" style="width: 100%; padding: 5px; box-sizing: border-box; min-width: 150px; max-width: 150px;">\n                            <option value="HEADSHOT">HEADSHOT</option>\n                            <option value="إبلع ليك">إبلع ليك</option>\n                            <option value="اديلووو ادي 🔪">اديلووو ادي 🔪</option>\n                            <option value=" HEADSHOT ☠️">HEADSHOT ☠️</option>\n                            <option value="   اديلو يا وديع😋😋 ">  اديلو يا وديع😋😋  </option>\n                        </select>\n                    </div>\n                </div>\n                <button onclick="saveMessages()" style="margin-top: 5px;">حفظ العبارات</button>\n            </div>\n\n                <!-- محتوى تبويب إعدادات الخلفيات (تم حذف كافة الخلفيات) -->\n                <div id="backgroundSettings" class="tab-content" style="display:none;">\n              <table>\n                <tbody>\n                  <tr>\n                    <td>\n                      <div class="spancursor">\n                        <i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #ff8f00; font-size: 25px;"></i> Select Curos\n                      </div>\n                      <div class="cursor-container">\n                        <div id="default-cursor-btn">\n                          <img style="margin-top: -45px; margin-right: 60px; float: right; width: 25px; height: 28px;" class="img" alt="Imgur-Upload" src="https://i.imgur.com/rI522o3.png">\n                        </div>\n                      </div>\n                    </td>\n                    <td>\n                      <div class="spancursor">\n                        <i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #ff8f00; font-size: 25px;"></i> Select Backgound\n                      </div>\n                      <div class="background-container"></div>\n                    </td>\n                  </tr>\n                </tbody>\n              </table>\n                </div>\n            </div>\n        </div>\n    </div>\n    </div>\n\n    <style>\n        /* تنسيق التبويبات */\n        .tab-buttons button {\n            padding: 10px;\n            background-color: #ddd;\n            border: none;\n            cursor: pointer;\n            flex: 1;\n            text-align: center;\n        }\n\n        .tab-buttons button.active {\n            background-color: #0d7aef;\n            color: white;\n        }\n\n        .tab-content {\n            display: none;\n        }\n\n        .tab-content.active {\n            display: block;\n        }\n\n        /* تنسيق خيارات الخلفية */\n        .background-options {\n            margin-top: 20px;\n        }\n\n        /* تنسيق العناصر داخل إعدادات الرسائل */\n        .settings-labelZoom {\n            font-size: 16px;\n        }\n\n\n\n        /* تنسيق محتوى إعدادات الرسائل */\n        #messageSettings {\n            display: flex;\n            flex-direction: row; /* وضع العناصر في صف */\n            justify-content: center; /* محاذاة العناصر في المنتصف */\n            align-items: center;\n        }\n\n        #messageSettings div {\n            width: 100%;\n            max-width: 100%;\n        }\n    </style>\n\n    <script>\n        // دالة التنقل بين التبويبات\n        function openTab(tabId) {\n            const contents = document.querySelectorAll(\'.tab-content\');\n            const buttons = document.querySelectorAll(\'.tab-button\');\n\n            contents.forEach(content => content.style.display = \'none\');\n            buttons.forEach(button => button.classList.remove(\'active\'));\n\n            document.getElementById(tabId).style.display = \'block\';\n            event.target.classList.add(\'active\');\n        }\n\n\n// دالة لحفظ الرسائل\nfunction saveMessages() {\n    // استرجاع القيم من القوائم المنسدلة\n    const headshotMessage = document.getElementById("headshotSelect").value;\n    const killMessage = document.getElementById("killSelect").value;\n\n    // حفظ القيم في localStorage\n    localStorage.setItem("headshotMessage", headshotMessage);\n    localStorage.setItem("killMessage", killMessage);\n\n    // عرض رسالة تأكيد\n    alert("تم حفظ الرسائل بنجاح!");\n\n    // لعرض القيم المدخلة في وحدة التحكم لتتأكد من الحفظ\n    console.log("Headshot Message: " + headshotMessage);\n    console.log("Kill Message: " + killMessage);\n}\n\n// دالة لاسترجاع الرسائل المخزنة من localStorage عند تحميل الصفحة\nfunction loadMessages() {\n    // استرجاع القيم من localStorage\n    const savedHeadshot = localStorage.getItem("headshotMessage");\n    const savedKill = localStorage.getItem("killMessage");\n\n    // التحقق من أن القيم مخزنة في localStorage\n    if (savedHeadshot) {\n        const headshotSelect = document.getElementById("headshotSelect");\n        if (headshotSelect) {\n            headshotSelect.value = savedHeadshot;\n        }\n    }\n    if (savedKill) {\n        const killSelect = document.getElementById("killSelect");\n        if (killSelect) {\n            killSelect.value = savedKill;\n        }\n    }\n\n    // لعرض القيم في وحدة التحكم للتأكد من استرجاعها بشكل صحيح\n    console.log("Loaded Headshot Message: " + savedHeadshot);\n    console.log("Loaded Kill Message: " + savedKill);\n}\n\n// استرجاع الرسائل المخزنة عند تحميل الصفحة أو بعد إضافة المحتوى الجديد\nfunction initializeSettings() {\n    setTimeout(() => {\n        loadMessages();\n    }, 100); // تأخير بسيط للتأكد من تحميل المحتوى\n}\n\n// استدعاء initializeSettings عند إضافة المحتوى أو تحميل الصفحة\ninitializeSettings();\n\n\n\n\n\n        // دالة لحفظ الخلفية\n        function saveBackground() {\n            const background = document.getElementById("backgroundSelect").value;\n            localStorage.setItem("selectedBackground", background);\n\n            alert("تم حفظ الخلفية بنجاح!");\n        }\n    </script>\n'
-      );
+      $("#mm-store").after('\n            \n            <link href=\'https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css\' rel=\'stylesheet\'/>\n            \n           \n        <div id="mm-store" style="float: right;position: relative;min-width: 95px;background:#ff0000" onclick="openPopup()"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:yellow;font-size: 23px;"></i> Tool</div>\n        <div id="popup" class="popup">\n        \n        <div class="phdr1"> \n        <button style="float: right;background: #00000000;float: right;height: 40px;border: none;font-size: 16px;font-weight: 600;" onclick="navigator.clipboard.writeText(\'' + theoKzObjects.FB_UserID + "').then(()=> alert('You ID " + theoKzObjects.FB_UserID + ' copied!\'));">Copy ID</button>\n        \n        \n        </div>\n        <div class="close-button" onclick="closePopup()"></div>\n        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">\n                   <div class="layout">\n      <div class="sidebar">\n          <ul>\n              <li><div class="hii" style="background: none; border: none;" id="click-btn"><i class="fas fa-user"></i> Profile</div></li>\n              <li id="toolgame-btn" class="selected" onclick="displayContent(\'toolgame\', this)">\n            <i class="fas fa-cogs"></i> Tool Game\n        </li>\n        <li id="skins-btn" onclick="displayContent(\'skins\', this)">\n            <i class="fas fa-paint-brush"></i> Skins\n        </li>\n        <li id="chuot-btn" onclick="displayContent(\'chuot\', this)">\n            <i class="fas fa-mouse"></i> Cursor\n        </li>\n        <li id="gioithieu-btn" onclick="displayContent(\'gioithieu\', this)">\n            <i class="fas fa-info-circle"></i> Version Change\n        </li>\n          </ul>\n      </div>\n\n      <div class="main-content">\n      \n          <div id="toolgame" class="content-section">\n              \n        <!-- Container cho 2 ph\xe1\xba\xa7n t\xe1\xbb\xad (h\xc3 ng 1) -->\n<div class="settings-row">\n    <div class="settings-lineZoom">\n        <span class="settings-labelZoom">\n             <i class="fas fa-bolt yellow-icon"></i> Eat Fast:\n        </span>\n        <input class="settings-switchZoom" id="settings-Abilityzoom-switch" type="checkbox"/>\n        <label for="settings-Abilityzoom-switch"></label>\n    </div>\n\n    <div class="settings-lineZoom">\n        <span class="settings-labelZoom">\n            <i class="fas fa-video yellow-icon"></i> Center Streamer :\n        </span>\n        <input class="settings-switchZoom" id="settings-stremingmode-switch" type="checkbox"/>\n        <label for="settings-stremingmode-switch"></label>\n    </div>\n</div>\n\n<!-- Container cho 2 ph\xe1\xba\xa7n t\xe1\xbb\xad (h\xc3 ng 2) -->\n<div class="settings-row">\n    <div class="settings-lineZoom">\n        <span class="settings-labelZoom">\n             <i class="fas fa-trophy yellow-icon"></i> 3 Top Score :\n        </span>\n        <input class="settings-switchZoom" id="settings-stremingmodebatop-switch" type="checkbox"/>\n        <label for="settings-stremingmodebatop-switch"></label>\n    </div>\n\n    <div class="settings-lineZoom">\n        <span class="settings-labelZoom">\n            <i class="fas fa-toggle-off yellow-icon"></i> Turn Off <img style="height: 18px;" src="https://i.imgur.com/cOrk9pM.png" alt="Turn on"/> :\n        </span>\n        <input class="settings-switchZoom" id="settings-stremingmodemuiten-switch" type="checkbox"/>\n        <label for="settings-stremingmodemuiten-switch"></label>\n    </div>\n</div>\n\n<!-- Container cho 2 ph\xe1\xba\xa7n t\xe1\xbb\xad (h\xc3 ng 2) -->\n<div class="settings-row">\n    <div class="settings-lineZoom">\n        <span class="settings-labelZoom">\n             <i class="fas fa-chart-bar yellow-icon"></i> Total Kill :\n        </span>\n        <input class="settings-switchZoom" id="settings-stremingmodesaveheadshot-switch" type="checkbox"/>\n        <label for="settings-stremingmodesaveheadshot-switch"></label>\n    </div>\n\n    <div class="settings-lineZoom">\n        <span class="settings-labelZoom">\n             <i class="fas fa-smile yellow-icon"></i> Off Emoj:\n        </span>\n        <input class="settings-switchZoom" id="settings-stremingmodeemoj-switch" type="checkbox"/>\n        <label for="settings-stremingmodeemoj-switch"></label>\n    </div>\n</div>\n\n<!-- Container cho 2 ph\xe1\xba\xa7n t\xe1\xbb\xad (h\xc3 ng 2) -->\n<div class="settings-row">\n     <div class="settings-lineZoom">\n        <span class="settings-labelZoom">\n             <i class="fas fa-volume-mute yellow-icon"></i> Off Sounds:\n        </span>\n        <input class="settings-switchZoom" id="settings-stremingmodeheadshot-switch" type="checkbox"/>\n        <label for="settings-stremingmodeheadshot-switch"></label>\n    </div>\n\n    <div class="settings-lineZoom">\n        <span class="settings-labelZoom">\n             <i class="fa fa-eye-slash"></i> Hide Map\n        </span>\n        <input class="settings-switchZoom" id="settings-stremingmodeanclock-switch" type="checkbox"/>\n        <label for="settings-stremingmodeanclock-switch"></label>\n    </div>\n</div>\n\n\n\n<div class="spancursor"> Select Background</div>\n<div class="background-container"></div>\n    \n          </div>\n          \n          \n          \n          <div id="skins" class="content-section">\n           <div style="margin-bottom: 10px;margin-top: -10px;" class="spancursor"> Upload Skins</div>\n               <iframe style="width: 100%; height: 43px;" src="https://haylamday.com/api/skins_upload.php" scrolling="no" frameborder="0"></iframe>\n               \n           <div style="margin-top: 20px;margin-bottom: 20px;" class="spancursor"> Upload Hat</div>\n <iframe style="width: 100%; height: 40px;" src="https://haylamday.com/api/hat_upload.php" scrolling="no" frameborder="0"></iframe>\n \n  <div class="spancursor">NOTE : </div>\n                <ul><li>\n                 Uploading 18+ sex skins is prohibited. ID will be locked if violated.</li>\n                 <li>\n                 Vui l\xc3\xb2ng kh\xc3\xb4ng t\xe1\xba\xa3i l\xc3\xaan skin sex 18+. B\xe1\xbb� ph\xc3\xa1t hi\xe1\xbb�n s\xe1\xba\xbd b\xe1\xbb� kh\xc3\xb3a. Xin c\xe1\xba\xa3m \xc6\xa1n !</li></ul>\n            \n \n          </div>\n          \n         \n          <div id="chuot" class="content-section">\n              <div class="spancursor"> Select Cursor</div>\n        <div class="cursor-container">\n            <div id="default-cursor-btn">\n                <img src="https://i.imgur.com/rI522o3.png">\n            </div>\n        </div>\n          </div>\n          <div id="gioithieu" class="content-section">\n              <h2>Version Change</h2>\n              <button id="resetScript" class="reset-button">Cache Delete</button>\n          </div>\n      </div>\n  </div>\n\n  <script>\n      function displayContent(sectionId, element) {\n          // \xe1\xba\xa8n t\xe1\xba\xa5t c\xe1\xba\xa3 c\xc3\xa1c m\xe1\xbb\xa5c n\xe1\xbb�i dung\n          let sections = document.querySelectorAll(\'.content-section\');\n          sections.forEach(section => section.style.display = \'none\');\n\n          // Hi\xe1\xbb�n th\xe1\xbb� m\xe1\xbb\xa5c n\xe1\xbb�i dung t\xc6\xb0\xc6\xa1ng \xe1\xbb\xa9ng\n          let activeSection = document.getElementById(sectionId);\n          if (activeSection) {\n              activeSection.style.display = \'block\';\n          }\n\n          // \xc4\x90\xe1\xbb�i m\xc3 u m\xe1\xbb\xa5c \xc4�\xc3\xa3 ch\xe1\xbb\x8dn\n          let menuItems = document.querySelectorAll(\'.sidebar ul li\');\n          menuItems.forEach(item => item.classList.remove(\'selected\')); // Lo\xe1\xba\xa1i b\xe1\xbb\x8f class \'selected\' kh\xe1\xbb\x8fi t\xe1\xba\xa5t c\xe1\xba\xa3 m\xe1\xbb\xa5c\n          \n          // Th\xc3\xaam class \'selected\' cho m\xe1\xbb\xa5c \xc4�\xc6\xb0\xe1\xbb\xa3c ch\xe1\xbb\x8dn\n          element.classList.add(\'selected\');\n      }\n\n      // Hi\xe1\xbb�n th\xe1\xbb� n\xe1\xbb�i dung m\xe1\xba\xb7c \xc4�\xe1\xbb�nh khi t\xe1\xba\xa3i trang\n      window.onload = function() {\n          displayContent(\'toolgame\', document.getElementById(\'toolgame-btn\'));\n      };\n      \n       // L\xe1\xba\xa5y ph\xe1\xba\xa7n t\xe1\xbb\xad n\xc3\xbat v\xc3  div\n        const button = document.getElementById("click-btn");\n        const playerInfo = document.getElementById("mm-player-info");\n\n        // X\xe1\xbb\xad l\xc3\xbd s\xe1\xbb\xb1 ki\xe1\xbb�n click v\xc3 o n\xc3\xbat\n        button.addEventListener("click", function() {\n            // M\xc3\xb4 ph\xe1\xbb\x8fng click v\xc3 o div khi nh\xe1\xba\xa5n n\xc3\xbat\n            playerInfo.click();\n        });\n\n        // X\xe1\xbb\xad l\xc3\xbd s\xe1\xbb\xb1 ki\xe1\xbb�n click tr\xe1\xbb\xb1c ti\xe1\xba\xbfp v\xc3 o div\n        playerInfo.addEventListener("click", function() {\n            // T\xe1\xba\xa1i \xc4�\xc3\xa2y b\xe1\xba\xa1n c\xc3\xb3 th\xe1\xbb� th\xe1\xbb\xb1c hi\xe1\xbb�n h\xc3 nh \xc4�\xe1\xbb�ng kh\xc3\xa1c khi click v\xc3 o div, v\xc3\xad d\xe1\xbb\xa5:\n            console.log("Div \xc4�\xc3\xa3 \xc4�\xc6\xb0\xe1\xbb\xa3c click!");\n        });\n\n      \n      \n      \n  </script>\n        <style>\n        .yellow-icon {\n    color: gold;  /* Ch\xe1\xbb�nh m\xc3 u v\xc3 ng */\n}\n        .layout {\n          display: flex;\n          width: 100%;\n          height: 90%;\n      }\n\n      .sidebar {\n          width: 140px;\n          background: #252535;\n          box-shadow: 0px 0px 10px #252535;\n          color: #fff;\n      }\n\n      .sidebar ul {\n          list-style-type: none;\n          padding: 0;\n          margin: 0;\n      }\n\n      .sidebar ul li {\n          padding: 12px;\n          cursor: pointer;\n          border-bottom: 1px solid #ddd;\n          width: 140px;\n      }\n\n      .sidebar ul li:hover {\n          background-color: #666;\n      }\n\n      .sidebar ul li.selected {\n          background-color: #000; /* M\xc3 u n\xe1\xbb\x81n khi m\xe1\xbb\xa5c \xc4�\xc6\xb0\xe1\xbb\xa3c ch\xe1\xbb\x8dn */\n          color: white;\n      }\n\n      .main-content {\n          flex-grow: 1;\n          padding: 20px;\n          background: #393e43;\n          color: #fff;\n      }\n\n      .content-section {\n          display: none;\n          transition: display 0.3s ease-in-out;\n      }\n\n      #toolgame {\n          display: block; /* M\xe1\xba\xb7c \xc4�\xe1\xbb�nh hi\xe1\xbb�n th\xe1\xbb� n\xe1\xbb�i dung Tool Game */\n      }\n\n      h2 {\n          margin-top: 0;\n      }\n\n      /* Th\xc3\xaam hi\xe1\xbb�u \xe1\xbb\xa9ng cho hover */\n      .sidebar ul li:hover {\n          background-color: #666;\n      }</style>\n        </div>');
       $('.mm-logo').replaceWith("<div class=\"nhap-nhay\">TR WORM </div>");
       $("#loa831pibur0w4gv").replaceWith(
         '\n        <div style="margin: 0;" id="loa831pibur0w4gv">\n          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />\n          <div class="label" id="titleSetings">الزوم يعمل مع التفعيل فقط</div>\n          <div class="bao-list1">\n            <input type="text" value="' +
