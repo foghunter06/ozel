@@ -8934,21 +8934,22 @@ window.addEventListener("load", function () {
                             <label for="settings-stremingmodeanclock-switch"></label>
                         </div>
                     </div>
-                     <div class="settings-row">
-                         <span class="settings-labelZoom">
-                                <i class="fas fa-toggle-off yellow-icon"></i> Turn Off 
-                                <img style="height: 18px;" src="https://i.imgur.com/cOrk9pM.png" alt="Turn on"/> :
+                                     <div class="settings-row">
+                        <div class="settings-lineZoom">
+                            <span class="settings-labelZoom">
+                                <i class="fas fa-trophy yellow-icon"></i> 1 Top Score :
                             </span>
-                            <input class="settings-switchZoom" id="settings-stremingmodeheadshot-switch" type="checkbox"/>
-                            <label for="settings-stremingmodeheadshot-switch"></label>
+                            <input class="settings-switchZoom" id="settings-stremingmodebatop-switch" type="checkbox"/>
+                            <label for="settings-stremingmodebatop-switch"></label>
                         </div>
 
                         <div class="settings-lineZoom">
                             <span class="settings-labelZoom">
-                                <i class="fa fa-eye-slash"></i> Türkiye Flag Map
+                                <i class="fas fa-toggle-off yellow-icon"></i> Turn Off 
+                                <img style="height: 18px;" src="https://i.imgur.com/cOrk9pM.png" alt="Turn on"/> :
                             </span>
-                            <input class="settings-switchZoom" id="settings-stremingmodeanclock-switch" type="checkbox"/>
-                            <label for="settings-stremingmodeanclock-switch"></label>
+                            <input class="settings-switchZoom" id="settings-stremingmodemuiten-switch" type="checkbox"/>
+                            <label for="settings-stremingmodemuiten-switch"></label>
                         </div>
                     </div>
 
