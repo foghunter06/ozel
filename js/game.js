@@ -443,7 +443,7 @@ const ctx = {
   },
 };
 ctx.clock = PIXI.Sprite.fromImage(
-  "https://i.imgur.com/v6szE9c.png"
+  "https://foghunter06.github.io/ozel/images/clock.png"
 );
 ctx.clock.width = 100;
 ctx.clock.height = 100;
@@ -453,7 +453,7 @@ const app = new PIXI.Application({
   width: window.innerWidth,
   height: window.innerHeight,
 });
-ctx.clockan = PIXI.Sprite.fromImage("https://i.imgur.com/c7HPILh.png"),
+ctx.clockan = PIXI.Sprite.fromImage("https://foghunter06.github.io/ozel/images/clocktr.png"),
 theoKzObjects.ModeStremeranclock ? (ctx.clockan.width = 100,
 ctx.clockan.height = 100,
 ctx.clockan.x = -50,
