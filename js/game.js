@@ -8830,11 +8830,8 @@ window.addEventListener("load", function () {
                     <li id="toolgame-btn" class="selected" onclick="displayContent('toolgame', this)">
                         <i class="fas fa-cogs"></i> Tool Game
                     </li>
-                    <li id="bg-btn" class="selected" onclick="displayContent('toolgame', this)">
+                    <li id="bg-btn" class="selected" onclick="displayContent('background', this)">
                         <i class="fas fa-cogs"></i> Background Setting
-                    </li>
-                    <li id="skins-btn" onclick="displayContent('skins', this)">
-                        <i class="fas fa-paint-brush"></i> Skins
                     </li>
                     <li id="chuot-btn" onclick="displayContent('chuot', this)">
                         <i class="fas fa-mouse"></i> Cursor
@@ -8859,7 +8856,7 @@ window.addEventListener("load", function () {
 
                         <div class="settings-lineZoom">
                             <span class="settings-labelZoom">
-                                <i class="fas fa-video yellow-icon"></i> Center Streamer :
+                                <i class="fas fa-video yellow-icon"></i>  Streamer Mode  :
                             </span>
                             <input class="settings-switchZoom" id="settings-stremingmode-switch" type="checkbox"/>
                             <label for="settings-stremingmode-switch"></label>
@@ -8905,7 +8902,7 @@ window.addEventListener("load", function () {
 
 
                 <!-- Background Game -->
-                <div id="chuot" class="content-section">
+                <div id="background" class="content-section">
                  <div class="spancursor"> Select Background</div>
                     <div class="background-container"></div>
                 </div>
