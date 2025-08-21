@@ -456,15 +456,17 @@ const app = new PIXI.Application({
 ctx.clockan = PIXI.Sprite.fromImage(
   "https://foghunter06.github.io/ozel/images/clocktr.png"
 );
-theoKzObjects.ModeStremeranclock ?
-ctx.clockan.width = 100;
-ctx.clockan.height = 100;
-ctx.clockan.x = -50;
-ctx.clockan.y = -50;
-const app = new PIXI.Application({
-  width: window.innerWidth,
-  height: window.innerHeight,
-});
+if (theoKzObjects.ModeStremeranclock) {
+  ctx.clockan.width = 0x64;
+  ctx.clockan.height = 0x64;
+  ctx.clockan.x = -0x32;
+  ctx.clockan.y = -0x32;
+} else {
+  ctx.clockan.width = 0x0;
+  ctx.clockan.height = 0x0;
+  ctx.clockan.x = -0x32;
+  ctx.clockan.y = -0x32;
+}
 document.body.appendChild(app.view);
 ctx.hoisinhnhanh = PIXI.Sprite.from("https://i.imgur.com/QZfm7vv.png");
 ctx.hoisinhnhanh.width = 23;
