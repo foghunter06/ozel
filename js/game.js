@@ -4508,7 +4508,9 @@ window.addEventListener("load", function () {
         if (theoKzObjects.ModeStremermuiten) {
           this.Qh = new vF32(v426, 158, 4, 87, 74, 203, 63.5, 128, 128);
         } else {}
-        this.Rh = new vF32(v430, 156, 140, 87, 60, 170, 128.5, 128, 128);
+        if (theoKzObjects.ModeStremermuitenn) {
+         this.Rh = new vF32(v430, 156, 140, 87, 60, 170, 128.5, 128, 128);
+          } else {}
         this.Ug = (function () {
           var v431 = window.document.createElement("canvas");
           v431.width = 80;
@@ -8937,19 +8939,18 @@ window.addEventListener("load", function () {
                           <div class="settings-row">
                         <div class="settings-lineZoom">
                             <span class="settings-labelZoom">
+                                <i class="fas fa-toggle-off yellow-icon"></i> Turn Off 
+                                <img style="height: 18px;" src="https://i.imgur.com/9j2U5SC.png" alt="Turn on"/> :
+                            </span>
+                            <input class="settings-switchZoom" id="settings-stremingmodemuitenn-switch" type="checkbox"/>
+                            <label for="settings-stremingmodemuitenn-switch"></label>
+                        </div>
+                        <div class="settings-lineZoom">
+                            <span class="settings-labelZoom">
                                 <i class="fas fa-trophy yellow-icon"></i> 1 Top Score :
                             </span>
                             <input class="settings-switchZoom" id="settings-stremingmodebatop-switch" type="checkbox"/>
                             <label for="settings-stremingmodebatop-switch"></label>
-                        </div>
-
-                        <div class="settings-lineZoom">
-                            <span class="settings-labelZoom">
-                                <i class="fas fa-toggle-off yellow-icon"></i> Turn Off 
-                                <img style="height: 18px;" src="https://i.imgur.com/cOrk9pM.png" alt="Turn on"/> :
-                            </span>
-                            <input class="settings-switchZoom" id="settings-stremingmodemuiten-switch" type="checkbox"/>
-                            <label for="settings-stremingmodemuiten-switch"></label>
                         </div>
                     </div>
 
@@ -9390,9 +9391,25 @@ window.addEventListener("load", function () {
                 }, 1e3)
             }),
             $(document).ready(function() {
-                "true" === localStorage.getItem("ModeStremermuiten") ? (theoKzObjects.ModeStremermuiten = !0,
-                $("#settings-stremingmodemuiten-switch").prop("checked", !0)) : (theoKzObjects.ModeStremermuiten = !1,
-                $("#settings-stremingmodemuiten-switch").prop("checked", !1))
+                "true" === localStorage.getItem("ModeStremermuitenn") ? (theoKzObjects.ModeStremermuitenn = !0,
+                $("#settings-stremingmodemuitenn-switch").prop("checked", !0)) : (theoKzObjects.ModeStremermuitenn = !1,
+                $("#settings-stremingmodemuitenn-switch").prop("checked", !1))
+            });
+             $("#settings-stremingmodemuitenn-switch").on("click", function() {
+                this.checked ? (console.log("I am checked"),
+                theoKzObjects.ModeStremermuitenn = !0,
+                localStorage.setItem("ModeStremermuitenn", "true")) : (console.log("I'm not checked"),
+                theoKzObjects.ModeStremermuitenn = !1,
+                localStorage.setItem("ModeStremermuitenn", "false")),
+                $("#svhiep").click(),
+                setTimeout(function() {
+                    location.reload()
+                }, 1e3)
+            }),
+            $(document).ready(function() {
+                "true" === localStorage.getItem("ModeStremermuitenn") ? (theoKzObjects.ModeStremermuitenn = !0,
+                $("#settings-stremingmodemuitenn-switch").prop("checked", !0)) : (theoKzObjects.ModeStremermuitenn = !1,
+                $("#settings-stremingmodemuitenn-switch").prop("checked", !1))
             });
       $(document).ready(function () {
         var v732 = localStorage.getItem("ModeStremer");
