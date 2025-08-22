@@ -9190,9 +9190,15 @@ window.addEventListener("load", function () {
       for (a = 0; a < servers.Api_listServer.length; a++) {
         var v697 = servers.Api_listServer[a].serverUrl;
         var v698 = servers.Api_listServer[a].name;
+        var data = servers.Api_listServer[a].svhiep;
+        var data1 = servers.Api_listServer[a].img-team;
+        var data2 = servers.Api_listServer[a].valu;
         var v699 = servers.Api_listServer[a].region;
         let v700 = document.createElement("p");
         v700.value = v697;
+        v700.value = data;
+        v700.value = data1;
+        v700.value = data2;
         v700.innerHTML = v698;
         if (v699 == "peru") {
           $(".servers-peru").prepend(v700);

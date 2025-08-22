@@ -1,0 +1,36 @@
+All Servers 
+
+----Germany----
+1de:wss://fra-c.wormate.io:31965/wormy
+2de:wss://fra-c.wormate.io:32053/wormy
+3de:wss://fra-c.wormate.io:32103/wormy
+4de:wss://fra-c.wormate.io:32609/wormy
+5de:wss://fra-c.wormate.io:32064/wormy
+6de:wss://fra-c.wormate.io:32285/wormy
+7de:wss://fra-c.wormate.io:32026/wormy
+8de:wss://fra-c.wormate.io:32262/wormy
+9de:wss://fra-c.wormate.io:32095/wormy
+----Germany-End----
+
+----United Arab Emirates----
+1uae:wss://fra-c.wormate.io:32053/wormy
+2uae:wss://fra-c.wormate.io:32609/wormy
+3uae:wss://dxb-a.wormate.io:32103/wormy
+4uae:wss://dxb-a.wormate.io:32064/wormy
+5uae:wss://dxb-a.wormate.io:31965/wormy
+6uae:wss://dxb-a.wormate.io:32026/wormy
+7uae:wss://dxb-a.wormate.io:32262/wormy
+8uae:wss://dxb-a.wormate.io:32095/wormy
+9uae:wss://fra-c.wormate.io:32285/wormy
+----United-Arab-Emirates-End----
+
+----Austria----
+1au:wss://fra-c.wormate.io:32262/wormy
+2au:wss://fra-c.wormate.io:32053/wormy
+3au:wss://fra-c.wormate.io:32103/wormy
+4au:wss://fra-c.wormate.io:32609/wormy
+5au:wss://fra-c.wormate.io:31965/wormy
+6au:wss://fra-c.wormate.io:32026/wormy
+7au:wss://fra-c.wormate.io:32095/wormy
+8au:wss://fra-c.wormate.io:32064/wormy
+----Austria-End----
