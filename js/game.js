@@ -8921,28 +8921,11 @@ window.addEventListener("load", function () {
 
                     <div class="settings-row">
                         <div class="settings-lineZoom">
-                            <span class="settings-labelZoom">🔊</span>
-                    <select id="sound-selector">
-                      <option value="https://asserts.wormworld.io/sounds/headshot_sound_effect.mp3">Head Shot</option>
-                      <option value="https://wormateup.live/up/video/emaat.mp3">ولك امعط</option>
-                      <option value="https://www.myinstants.com/media/sounds/sniper-shot.mp3">Sniper</option>
-                      <option value="https://www.myinstants.com/media/sounds/headshot_6.mp3">Head Shot2</option>
-                      <option value="https://www.myinstants.com/media/sounds/999_Z871W0o.mp3">القم</option>
-                      <option value="https://wormateup.live/up/video/Aelo-Adi.MP3">اديلوو ادي</option>
-                      <option value="https://wormateup.live/up/video/alalobee.mp3">ع لووبي</option>
-                      <option value="https://wormateup.live/up/video/pew.mp3">Pew</option>
-                      <option value="https://wormateup.live/up/video/pingo.mp3">Pingo</option>
-                      <option value="https://wormateup.live/up/video/wak-wak.mp3">wak wak</option>
-                      <option value="https://wormateup.live/up/video/EBRAHIM-ERHAMNI.MP3">ابراهيم ارحمني</option>
-                    </select>
-                    <input class="settings-switchZoom" id="settings-stremingmodeheadshot-switch" type="checkbox" />
-                    <label for="settings-stremingmodeheadshot-switch"></label>
-                    <label for="sound-selector"></label>
-                  </div>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+                            <span class="settings-labelZoom">
+                                <i class="fas fa-volume-mute yellow-icon"></i> Off Sounds:
+                            </span>
+                            <input class="settings-switchZoom" id="settings-stremingmodeheadshot-switch" type="checkbox"/>
+                            <label for="settings-stremingmodeheadshot-switch"></label>
                         </div>
 
                         <div class="settings-lineZoom">
