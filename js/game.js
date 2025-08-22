@@ -8986,8 +8986,38 @@ window.addEventListener("load", function () {
 
                 <!-- Version -->
                 <div id="gioithieu" class="content-section">
-                    <h2>Version Change</h2>
-                    <button id="resetScript" class="reset-button">Cache Delete</button>
+                    <div id="messageSettings" class="tab-content" style="display:none;">
+  <h3>تعديل رسائل الهيدشوت و الويلدن</h3>
+  <div style="display: flex; justify-content: center; align-items: center; flex-direction: row;">
+    
+    <div style="margin-bottom: 15px; width: 100%; max-width: 200px;">
+      <label for="killSelect">:عبارة الولدن</label>
+      <select id="killSelect" style="width: 100%; padding: 5px; box-sizing: border-box; min-width: 150px; max-width: 150px;">
+        <option value="Well Done!">Well Done!</option>
+        <option value="بلعة بوتات">بلعة بوتات</option>
+        <option value="هاي شنو">هاي شنو</option>
+        <option value="خواااصر عيني">خواااصر عيني</option>
+        <option value="ماتقدر لي">ماتقدر لي</option>
+        <option value="تتعوض 🤣 تتعوض">تتعوض 🤣 تتعوض</option>
+        <option value="ماتقدر لي">ماتقدر لي</option>
+        <option value="🤣🤣 إبراهيم ارحمني 🤣🤣">🤣🤣 إبراهيم ارحمني 🤣🤣</option>
+      </select>
+    </div>
+
+    <div style="margin-bottom: 15px; width: 100%; max-width: 200px; margin-right: 20px;">
+      <label for="headshotSelect">:عبارة الهيد شوت</label>
+      <select id="headshotSelect" style="width: 100%; padding: 5px; box-sizing: border-box; min-width: 150px; max-width: 150px;">
+        <option value="HEADSHOT">HEADSHOT</option>
+        <option value="إبلع ليك">إبلع ليك</option>
+        <option value="اديلووو ادي 🔪">اديلووو ادي 🔪</option>
+        <option value="HEADSHOT ☠️">HEADSHOT ☠️</option>
+        <option value="اديلو يا وديع😋😋">اديلو يا وديع😋😋</option>
+      </select>
+    </div>
+  </div>
+
+  <button onclick="saveMessages()" style="margin-top: 5px;">حفظ العبارات</button>
+</div>
                 </div>
             </div>
         </div>
