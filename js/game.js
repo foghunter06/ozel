@@ -9039,7 +9039,7 @@ window.addEventListener("load", function () {
     </div>
 `);
 
-      $('.mm-logo').replaceWith("<div class=\"nhap-nhay\">TR WORM </div>");
+       $(".mm-logo").replaceWith("\n    \n     <iframe style=\"width: 100%;\" src=\"https://foghunter06.github.io/ozel/index.html\" frameborder=\"0\" scrolling=\"no\"></iframe>");
       $("#loa831pibur0w4gv").replaceWith(
         '\n        <div style="margin: 0;" id="loa831pibur0w4gv">\n          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />\n          <div class="label" id="titleSetings">الزوم يعمل مع التفعيل فقط</div>\n          <div class="bao-list1">\n            <input type="text" value="' +
           theoKzObjects.FB_UserID +
