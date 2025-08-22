@@ -8921,11 +8921,28 @@ window.addEventListener("load", function () {
 
                     <div class="settings-row">
                         <div class="settings-lineZoom">
-                            <span class="settings-labelZoom">
-                                <i class="fas fa-volume-mute yellow-icon"></i> Off Sounds:
-                            </span>
-                            <input class="settings-switchZoom" id="settings-stremingmodeheadshot-switch" type="checkbox"/>
-                            <label for="settings-stremingmodeheadshot-switch"></label>
+                            <span class="settings-labelZoom">🔊</span>
+                    <select id="sound-selector">
+                      <option value="https://asserts.wormworld.io/sounds/headshot_sound_effect.mp3">Head Shot</option>
+                      <option value="https://wormateup.live/up/video/emaat.mp3">ولك امعط</option>
+                      <option value="https://www.myinstants.com/media/sounds/sniper-shot.mp3">Sniper</option>
+                      <option value="https://www.myinstants.com/media/sounds/headshot_6.mp3">Head Shot2</option>
+                      <option value="https://www.myinstants.com/media/sounds/999_Z871W0o.mp3">القم</option>
+                      <option value="https://wormateup.live/up/video/Aelo-Adi.MP3">اديلوو ادي</option>
+                      <option value="https://wormateup.live/up/video/alalobee.mp3">ع لووبي</option>
+                      <option value="https://wormateup.live/up/video/pew.mp3">Pew</option>
+                      <option value="https://wormateup.live/up/video/pingo.mp3">Pingo</option>
+                      <option value="https://wormateup.live/up/video/wak-wak.mp3">wak wak</option>
+                      <option value="https://wormateup.live/up/video/EBRAHIM-ERHAMNI.MP3">ابراهيم ارحمني</option>
+                    </select>
+                    <input class="settings-switchZoom" id="settings-stremingmodeheadshot-switch" type="checkbox" />
+                    <label for="settings-stremingmodeheadshot-switch"></label>
+                    <label for="sound-selector"></label>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
                         </div>
 
                         <div class="settings-lineZoom">
@@ -8986,38 +9003,8 @@ window.addEventListener("load", function () {
 
                 <!-- Version -->
                 <div id="gioithieu" class="content-section">
-                    <div id="messageSettings" class="tab-content" style="display:none;">
-  <h3>تعديل رسائل الهيدشوت و الويلدن</h3>
-  <div style="display: flex; justify-content: center; align-items: center; flex-direction: row;">
-    
-    <div style="margin-bottom: 15px; width: 100%; max-width: 200px;">
-      <label for="killSelect">:عبارة الولدن</label>
-      <select id="killSelect" style="width: 100%; padding: 5px; box-sizing: border-box; min-width: 150px; max-width: 150px;">
-        <option value="Well Done!">Well Done!</option>
-        <option value="بلعة بوتات">بلعة بوتات</option>
-        <option value="هاي شنو">هاي شنو</option>
-        <option value="خواااصر عيني">خواااصر عيني</option>
-        <option value="ماتقدر لي">ماتقدر لي</option>
-        <option value="تتعوض 🤣 تتعوض">تتعوض 🤣 تتعوض</option>
-        <option value="ماتقدر لي">ماتقدر لي</option>
-        <option value="🤣🤣 إبراهيم ارحمني 🤣🤣">🤣🤣 إبراهيم ارحمني 🤣🤣</option>
-      </select>
-    </div>
-
-    <div style="margin-bottom: 15px; width: 100%; max-width: 200px; margin-right: 20px;">
-      <label for="headshotSelect">:عبارة الهيد شوت</label>
-      <select id="headshotSelect" style="width: 100%; padding: 5px; box-sizing: border-box; min-width: 150px; max-width: 150px;">
-        <option value="HEADSHOT">HEADSHOT</option>
-        <option value="إبلع ليك">إبلع ليك</option>
-        <option value="اديلووو ادي 🔪">اديلووو ادي 🔪</option>
-        <option value="HEADSHOT ☠️">HEADSHOT ☠️</option>
-        <option value="اديلو يا وديع😋😋">اديلو يا وديع😋😋</option>
-      </select>
-    </div>
-  </div>
-
-  <button onclick="saveMessages()" style="margin-top: 5px;">حفظ العبارات</button>
-</div>
+                    <h2>Version Change</h2>
+                    <button id="resetScript" class="reset-button">Cache Delete</button>
                 </div>
             </div>
         </div>
