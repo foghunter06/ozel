@@ -11,6 +11,7 @@ All Servers
 8de:wss://fra-c.wormate.io:32262/wormy
 9de:wss://fra-c.wormate.io:32095/wormy
 ----Germany-End----
+----Germany-ADD----
 
 ----United Arab Emirates----
 1uae:wss://fra-c.wormate.io:32053/wormy
