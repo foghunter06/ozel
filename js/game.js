@@ -9190,9 +9190,6 @@ window.addEventListener("load", function () {
       for (a = 0; a < servers.Api_listServer.length; a++) {
         var v697 = servers.Api_listServer[a].serverUrl;
         var v698 = servers.Api_listServer[a].name;
-        var data = servers.Api_listServer[a].svhiep;
-        var data1 = servers.Api_listServer[a].img-team;
-        var data2 = servers.Api_listServer[a].valu;
         var v699 = servers.Api_listServer[a].region;
         let v700 = document.createElement("p");
         v700.value = v697;
