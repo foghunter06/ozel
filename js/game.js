@@ -9193,9 +9193,6 @@ window.addEventListener("load", function () {
         var v699 = servers.Api_listServer[a].region;
         let v700 = document.createElement("p");
         v700.value = v697;
-        v700.value = data;
-        v700.value = data1;
-        v700.value = data2;
         v700.innerHTML = v698;
         if (v699 == "peru") {
           $(".servers-peru").prepend(v700);
