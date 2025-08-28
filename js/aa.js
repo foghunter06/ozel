@@ -335,17 +335,36 @@ const ctx = {
         }),
     }
 };
-ctx.clock = PIXI.Sprite.fromImage("https://i.imgur.com/v6szE9c.png");
+ctx.clock = PIXI.Sprite.fromImage(
+  "https://foghunter06.github.io/ozel/images/clock.png"
+);
 ctx.clock.width = 100;
 ctx.clock.height = 100;
 ctx.clock.x = -50;
 ctx.clock.y = -50;
-
+const app = new PIXI.Application({
+  width: window.innerWidth,
+  height: window.innerHeight,
+});
+ctx.clockan = PIXI.Sprite.fromImage(
+  "https://foghunter06.github.io/ozel/images/clocktr.png"
+);
+if (theoKzObjects.ModeStremeranclock) {
+  ctx.clockan.width = 0x64;
+  ctx.clockan.height = 0x64;
+  ctx.clockan.x = -0x32;
+  ctx.clockan.y = -0x32;
+} else {
+  ctx.clockan.width = 0x0;
+  ctx.clockan.height = 0x0;
+  ctx.clockan.x = -0x32;
+  ctx.clockan.y = -0x32;
+}
 
 
 
 /*server name */
-ctx.value_server = new PIXI.Text("WFC", ctx.fontStyle.name);
+ctx.value_server = new PIXI.Text("TR-W", ctx.fontStyle.name);
 ctx.value_server.x = 25;
 ctx.value_server.y = -18;
 
@@ -431,7 +450,7 @@ ctx.borderImg.y = 78;
 ctx.borderImg.width = 110;
 ctx.borderImg.height = 60;
 ctx.setServer = function (name) {
-    ctx.value_server.text = name || "WFC"
+    ctx.value_server.text = name || "TR-W"
 };
 ctx.setCountGame = function (killHTML, headShotHTML, totalKills, totalHeadshots) {
     //if (!theoKzObjects.SaveGameXT) {
@@ -2177,6 +2196,7 @@ else {
                 this.vf.position.y = 20;
                 
                 this.tf.addChild(ctx.clock);
+                this.tf.addChild(ctx.clockan);
                    
 
                     this.vf.addChild(ctx.value_server);
@@ -3285,13 +3305,18 @@ else {
                     var EMOJI_HEADSHOT = POGL.$b.from("https://i.imgur.com/EDt862t.png");
                     var EMOJI_KILL = POGL.$b.from("https://i.imgur.com/U5sTlhC.png");
 
+                    var İTEM = POGL.$b.from("https://i.imgur.com/LFiCido.png");
+                    
                     var COMPUTEMOBILE_GIE = POGL.$b.from("https://i.imgur.com/ub4ed3R.png");
                     this.Id_mobileguia = new Region(COMPUTEMOBILE_GIE, 0, 0, 87, 74, 350, 63, 128, 128);
                     this.emoji_headshot = new Region(EMOJI_HEADSHOT, 0, 0, 256, 256, 170.5, -163.5, 128, 128);
                     this.emoji_kill = new Region(EMOJI_KILL, 0, 0, 256, 256, 170.5, -163.5, 128, 128);
+                    this.item1 = new Region(İTEM, 156, 80, 87, 60, 170, 1.5, 128, 128);
+                    this.item2 = new Region(İTEM, 158, 200, 95, 55, 265, 128.5, 128, 128);
+                    this.item3 = new Region(İTEM, 79, 8, 75, 77, 265, 1.5, 128, 128);
                     this.Ph = new Region(COMPUTE, 158, 86, 67, 124, 148, 63.5, 128, 128);
                     this.Qh = new Region(COMPUTE, 158, 4, 87, 74, 203, 63.5, 128, 128);
-                    this.Rh = new Region(COMPUTE, 4, 4, 146, 146, 63.5, 63.5, 128, 128);
+                    this.Rh = new Region(İTEM, 156, 140, 87, 60, 170, 128.5, 128, 128));
                     this.Ug = function () {
                         var t = window.document.createElement("canvas");
                         return t.width = 80, t.height = 80, {
@@ -6371,6 +6396,33 @@ window.onwheel = (event) => {
 
     location.reload(); 
 });
+
+                  $(document).ready(function() {
+                "true" === localStorage.getItem("ModeStremeranclock") ? (theoKzObjects.ModeStremeranclock = !0,
+                $("#settings-stremingmodeanclock-switch").prop("checked", !0)) : (theoKzObjects.ModeStremeranclock = !1,
+                $("#settings-stremingmodeanclock-switch").prop("checked", !1)),
+                theoKzObjects.ModeStremeranclock ? (ctx.clockan.width = 100,
+                ctx.clockan.height = 100,
+                ctx.clockan.x = -50,
+                ctx.clockan.y = -50) : (ctx.clockan.width = 0,
+                ctx.clockan.height = 0,
+                ctx.clockan.x = -50,
+                ctx.clockan.y = -50)
+            });
+            $("#settings-stremingmodeanclock-switch").on("click", function() {
+                this.checked ? (console.log("I am checked"),
+                theoKzObjects.ModeStremeranclock = !0,
+                localStorage.setItem("ModeStremeranclock", "true")) : (console.log("I'm not checked"),
+                theoKzObjects.ModeStremeranclock = !1,
+                localStorage.setItem("ModeStremeranclock", "false")),
+                theoKzObjects.ModeStremeranclock ? (ctx.clockan.width = 100,
+                ctx.clockan.height = 100,
+                ctx.clockan.x = -50,
+                ctx.clockan.y = -50) : (ctx.clockan.width = 0,
+                ctx.clockan.height = 0,
+                ctx.clockan.x = -50,
+                ctx.clockan.y = -50)
+            });
 
             $(document).ready(function () {
                 var modeStremersaveheadshot = localStorage.getItem("ModeStremersaveheadshot");
