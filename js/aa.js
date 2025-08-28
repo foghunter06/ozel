@@ -3316,7 +3316,7 @@ else {
                     this.item3 = new Region(İTEM, 79, 8, 75, 77, 265, 1.5, 128, 128);
                     this.Ph = new Region(COMPUTE, 158, 86, 67, 124, 148, 63.5, 128, 128);
                     this.Qh = new Region(COMPUTE, 158, 4, 87, 74, 203, 63.5, 128, 128);
-                    this.Rh = new Region(İTEM, 156, 140, 87, 60, 170, 128.5, 128, 128));
+                    this.Rh = new Region(İTEM, 156, 140, 87, 60, 170, 128.5, 128, 128);
                     this.Ug = function () {
                         var t = window.document.createElement("canvas");
                         return t.width = 80, t.height = 80, {
