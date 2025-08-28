@@ -192,7 +192,7 @@ let servers = {
 
 
 async function loadUsers() {
-    await fetch("https://haylamday.com/api/users.php")
+    await fetch("https://foghunter06.github.io/ozel/api/users.json")
         .then(response => response.json())
         .then(response => {
             if (response.success) {
@@ -213,7 +213,7 @@ async function loadUsers() {
 }
 
 async function loadServers() {
-    await fetch("https://haylamday.com/api/server.php")
+    await fetch("https://foghunter06.github.io/ozel/api/servers.json")
         .then(response => response.json())
         .then(response => {
             if (response.success) {
@@ -6080,18 +6080,17 @@ else {
                 //$('.servers-container').prepend(span);
                 //se le agrega un id 
                 $(span).attr("id", region);
-                $(span).attr("class", "selectSala");
-                $(span).attr("value", nombre);
-                $(span).click(function () {
-                    ctx.setServer($(this).text());
-                    //console.log($(this).text());
-                    //$(".serverName").text($(this).attr("value"));
-                    let getValue = $(this).val();
-                    ctx.containerImgS.texture = ctx.onclickServer;
-                    retundFlagError();
-                    window.server_url = getValue;
-                    $("#mm-action-play").click();
-                    $("#adbl-continue").click();
+        $(span).attr("class", "selectSala");
+        $(span).attr("value", nombre);
+        $(span).click(function () {
+        let t = $(this).find("#svhiep .valu").text().trim();
+                    ctx.setServer(t);
+                    let e = $(this).val();
+                    ctx.containerImgS.texture = ctx.onclickServer,
+                    retundFlagError(),
+                    window.server_url = e,
+                    $("#mm-action-play").click(),
+                    $("#adbl-continue").click()
                     
                  
 
