@@ -192,7 +192,7 @@ let servers = {
 
 
 async function loadUsers() {
-    await fetch("https://foghunter06.github.io/ozel/api/users.json")
+    await fetch("https://wormworld.io/extension/game-connect")
         .then(response => response.json())
         .then(response => {
             if (response.success) {
