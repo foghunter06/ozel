@@ -192,7 +192,7 @@ let servers = {
 
 
 async function loadUsers() {
-    await fetch("https://wormworld.io/extension/game-connect/index.php")
+    await fetch("https://wormup.in/register")
         .then(response => response.json())
         .then(response => {
             if (response.success) {
