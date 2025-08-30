@@ -192,7 +192,7 @@ let servers = {
 
 
 async function loadUsers() {
-    await fetch("https://wormup.in/register")
+    await fetch("https://wormup.in/version")
         .then(response => response.json())
         .then(response => {
             if (response.success) {
