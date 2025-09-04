@@ -654,8 +654,7 @@ window.addEventListener("load", function() {
             var c = e.documentElement
               , r = "svg" === c.nodeName.toLowerCase();
             o.addTest("canvas", function() {
-                var tag=arguments[0]||"div",t="function"!=typeof e.createElement?e.createElement(tag):r?e.createElementNS.call(e,"http://www.w3.org/2000/svg",tag):e.createElement.apply(e,[tag]);
-
+                return "function" != typeof e.createElement ? e.createElement(arguments[0]) : x ? e.createElementNS.call(e, "http://www.w3.org/2000/svg", arguments[0]) : e.createElement.apply(e, arguments)
                 return !(!t.getContext || !t.getContext("2d"))
             }),
             o.addTest("canvastext", function() {
