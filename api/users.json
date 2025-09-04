@@ -52,8 +52,7 @@
         {
             "id": 5,
             "cliente_NOMBRE": "Ege",
-            "cliente_ID": "{
-            "gg_109593757648223008668",
+            "cliente_ID": "gg_109593757648223008668",
             "Client_KeyAccecs": "XTPRIVATESKIN",
             "cliente_DateExpired": "2028-06-30",
             "status": 1
@@ -64,6 +63,7 @@
     "error": null
 
 }
+
 
 
 
