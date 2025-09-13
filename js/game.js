@@ -415,7 +415,7 @@ const ctx = {
         whiteSpace: "normal",
         wordWrap: true
       }),
-      hsBrancoRight: new PIXI.TextStyle(_0x13f8f6({
+      hsBrancoRight: new PIXI.TextStyle({
         align: "center",
         fill: "#fff",
         fontSize: 12,
