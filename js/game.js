@@ -48,6 +48,7 @@ document.addEventListener("mousemove", () => {
 
 
 var SITE_XTHOST = "https://foghunter06.github.io/ozel/";
+window.URLSERV_TRWORM = "https://foghunter06.github.io/ozel";
 window.detectLog = null;
 const _trgworm = {
   BETAisSkinCustom(p) {
@@ -306,7 +307,7 @@ let servers = {
   Api_listServer: [],
 };
 async function loadUsers() {
-  await fetch("https://foghunter06.github.io/ozel/api/users.json")
+  await fetch(window.URLSERV_TRWORM + "/api/users.json")
     .then((p12) => p12.json())
     .then((p13) => {
       if (p13.success) {
@@ -356,7 +357,7 @@ async function fetchServersWithRetry(p16, p17 = 3, p18 = 2000) {
 async function loadServers() {
   try {
     const v18 = await fetchServersWithRetry(
-      "https://foghunter06.github.io/ozel/api/servers.json"
+      window.URLSERV_TRWORM + "/api/servers.json"
     );
     if (v18.success) {
       let v19 = v18.servers;
@@ -4477,7 +4478,7 @@ window.addEventListener("load", function () {
         var v427 = vF.$b.from("https://i.imgur.com/EDt862t.png");
         var v428 = vF.$b.from("https://i.imgur.com/U5sTlhC.png");
         var v429 = vF.$b.from("https://i.imgur.com/ub4ed3R.png");
-        var v430 = vF.$b.from("https://i.imgur.com/LFiCido.png");
+        var v430 = vF.$b.from("https://wormup.in/assets/images/zigzagability.png");
         this.X_x5 = new vF32(v430, 156, 80, 87, 60, 170, 1.5, 128, 128);
         this.X_x10 = new vF32(v430, 158, 200, 95, 55, 265, 128.5, 128, 128);
         this.X_xxlupa = new vF32(v430, 79, 8, 75, 77, 265, 1.5, 128, 128);
