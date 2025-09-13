@@ -423,7 +423,8 @@ const ctx = {
         stroke: "#FFF",
         whiteSpace: "normal",
         wordWrap: true
-      }),
+       }),
+    }
   };
 ctx.clock = PIXI.Sprite.fromImage(
   "https://foghunter06.github.io/ozel/images/clock.png"
