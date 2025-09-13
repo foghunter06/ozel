@@ -415,7 +415,7 @@ const ctx = {
         whiteSpace: "normal",
         wordWrap: true
       }),
-      hsBrancoRight: new PIXI.TextStyle{
+      hsBrancoRight: new PIXI.TextStyle({
         align: "center",
         fill: "#fff",
         fontSize: 12,
@@ -423,7 +423,7 @@ const ctx = {
         stroke: "#FFF",
         whiteSpace: "normal",
         wordWrap: true
-      },
+      }),
   };
 ctx.clock = PIXI.Sprite.fromImage(
   "https://foghunter06.github.io/ozel/images/clock.png"
