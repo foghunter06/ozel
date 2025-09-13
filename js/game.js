@@ -106,24 +106,11 @@ var theoEvents = {
     pxy: 110,
   },
 };
- load_con: function a() {
-            $(".selecionar-sala-v2").click(function (a) {
-              a.preventDefault();
-              var b = $(this).attr("data-con") || bbs.con;
-              var c = $(this).attr("data-type");
-              la.addRoom($(this).attr("data-room"));
-              Ba.dh.Zp = function (a, c, d) {
-                bbs.con = d ? a : b || a;
-                _wwc.Zp(bbs.con, c);
-              };
-              Ba.Pn();
-            });
-          };
 var theoKzObjects = {
   FB_UserID: "",
   smoothCamera: 0.5,
   eat_animation: 0.0025,
-  flag: "https://i.imgur.com/EkbSd65.png",
+  flag: URLSERV_TRWORM + "/images/flag.png",
   PortionSize: localStorage.PotenciadorSize || 2,
   PortionAura: localStorage.PotenciadorAura || 1.2,
   PortionTransparent: 0.8,
@@ -469,15 +456,15 @@ if (theoKzObjects.ModeStremeranclock) {
   ctx.clockan.y = -0x32;
 }
 document.body.appendChild(app.view);
-ctx.hoisinhnhanh = PIXI.Sprite.from("https://i.imgur.com/QZfm7vv.png");
+ctx.hoisinhnhanh = PIXI.Sprite.from("URLSERV_TRWORM + /images/hoisinhnhanh.png");
 ctx.hoisinhnhanh.width = 23;
 ctx.hoisinhnhanh.height = 23;
-ctx.top10sv = PIXI.Sprite.fromImage("https://i.imgur.com/UbRiUYr.png");
+ctx.top10sv = PIXI.Sprite.fromImage("URLSERV_TRWORM + /images/top10sv.png");
 ctx.top10sv.height = 25;
 ctx.top10sv.width = 100;
 ctx.top10sv.x = 60;
 ctx.top10sv.y = -50;
-ctx.quaytron = PIXI.Sprite.from("https://i.imgur.com/a7lVOy5.png");
+ctx.quaytron = PIXI.Sprite.from("URLSERV_TRWORM + /images/quaytron.png");
 ctx.quaytron.width = -23;
 ctx.quaytron.height = -23;
 app.stage.addChild(ctx.hoisinhnhanh);
@@ -9790,7 +9777,7 @@ window.addEventListener("load", function () {
       function (p650) {
         v760 = p650;
         $.ajax({
-          url: "https://foghunter06.github.io/ozel/api/skins.json",
+          url: URLSERV_TRWORM + "/api/skins.json",
           method: "GET",
           dataType: "json",
           success: function (p651) {
