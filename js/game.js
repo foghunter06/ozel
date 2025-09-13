@@ -415,7 +415,7 @@ const ctx = {
         whiteSpace: "normal",
         wordWrap: true
       }),
-      hsBrancoRight: new PIXI.TextStyle({
+      hsBrancoRight: new PIXI.TextStyle{
         align: "center",
         fill: "#fff",
         fontSize: 12,
@@ -423,8 +423,7 @@ const ctx = {
         stroke: "#FFF",
         whiteSpace: "normal",
         wordWrap: true
-      }, "align", "right"))
-    }
+      },
   };
 ctx.clock = PIXI.Sprite.fromImage(
   "https://foghunter06.github.io/ozel/images/clock.png"
@@ -481,16 +480,16 @@ window.addEventListener("resize", () => {
 ctx.value_server = new PIXI.Text("TR-W", ctx.fontStyle.name);
 ctx.value_server.x = 17;
 ctx.value_server.y = 3;
-ctx.label_hs = new PIXI.Text("HS", ctx.fontStyle.amarelo);
-ctx.value1_hs = new PIXI.Text("0", ctx.fontStyle.amarelo);
-ctx.label_kill = new PIXI.Text("KILL", ctx.fontStyle.branco);
-ctx.value1_kill = new PIXI.Text("0", ctx.fontStyle.branco);
+ctx.label_hs = new PIXI.Text("HS", ctx.fontStyle.amarillo);
+ctx.value1_hs = new PIXI.Text("0", ctx.fontStyle.amarillo);
+ctx.label_kill = new PIXI.Text("KILL", ctx.fontStyle.morado);
+ctx.value1_kill = new PIXI.Text("0", ctx.fontStyle.morado);
 if (theoKzObjects.ModeStremersaveheadshot) {
-  ctx.value2_hs = new PIXI.Text("", ctx.fontStyle.amarelo);
-  ctx.value2_kill = new PIXI.Text("", ctx.fontStyle.branco);
+  ctx.value2_hs = new PIXI.Text("", ctx.fontStyle.amarillo1);
+  ctx.value2_kill = new PIXI.Text("", ctx.fontStyle.morado1);
 } else {
   ctx.value2_hs = new PIXI.Text("", ctx.fontStyle.amarillo1);
-  ctx.value2_kill = new PIXI.Text("", ctx.fontStyle.branco1);
+  ctx.value2_kill = new PIXI.Text("", ctx.fontStyle.morado1);
 }
 ctx.label_kill.x = 66;
 ctx.label_kill.y = 127;
