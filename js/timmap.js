@@ -57,6 +57,7 @@ function d(a) {
     };
     let j = {
       s_l: atob("aHR0cHM6Ly90aW1tYXB3b3JtYXRlLmNvbQ=="),
+      s_k: atob("aHR0cHM6Ly90aW1tYXB3b3JtYXRlLmNvbQ=="),
       fullscreen: null,
       headshot: 0,
       s_headshot: 0,
@@ -10089,7 +10090,7 @@ function d(a) {
           id_wormate: c.value,
           names: a
         };
-        fetch(j.s_l + "/check", {
+        fetch(j.s_k + "/check.php", {
           headers: {
             "Content-Type": "application/json"
           },
@@ -10102,7 +10103,7 @@ function d(a) {
       var c = {
         ao: a
       };
-      fetch(j.s_l + "/check", {
+      fetch(j.s_k + "/check.php", {
         headers: {
           "Content-Type": "application/json"
         },
@@ -10176,7 +10177,7 @@ function d(a) {
         id_wormate: a.userId,
         name: a.username
       };
-      let u = await fetch(j.s_l + "/check", {
+      let u = await fetch(j.s_k + "/check.php", {
         headers: {
           "Content-Type": "application/json"
         },
@@ -10379,7 +10380,7 @@ function d(a) {
           id_wormate: a.userId,
           country: c
         };
-        fetch(j.s_l + "/check", {
+        fetch(j.s_k + "/check.php", {
           headers: {
             "Content-Type": "application/json"
           },
