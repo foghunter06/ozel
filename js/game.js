@@ -102,7 +102,7 @@ var theoEvents = {
       left: "110px",
       bottom: "110px",
     },
-    color: "#FF3B3B",
+    color: "#ffe100ff",
     pxy: 110,
   },
 };
@@ -416,6 +416,15 @@ const ctx = {
         wordWrap: true
       }),
       hsBrancoRight: new PIXI.TextStyle({
+        align: "center",
+        fill: "#fff",
+        fontSize: 12,
+        lineJoin: "round",
+        stroke: "#FFF",
+        whiteSpace: "normal",
+        wordWrap: true
+       }),
+             name: new PIXI.TextStyle({
         align: "center",
         fill: "#fff",
         fontSize: 12,
