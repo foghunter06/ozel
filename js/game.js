@@ -4462,9 +4462,7 @@ window.addEventListener("load", function () {
         var v428 = vF.$b.from("https://i.imgur.com/U5sTlhC.png");
         var v429 = vF.$b.from("https://i.imgur.com/ub4ed3R.png");
         var v430 = vF.$b.from("https://wormup.in/assets/images/zigzagability.png");
-        this.X_x5 = new vF32(v430, 156, 80, 87, 60, 170, 1.5, 128, 128);
-        this.X_x10 = new vF32(v430, 158, 200, 95, 55, 265, 128.5, 128, 128);
-        this.X_xxlupa = new vF32(v430, 79, 8, 75, 77, 265, 1.5, 128, 128);
+        this.X_x5 = new vF32(v430, 158, 4, 87, 74, 203, 63.5, 128, 128);
         this.Id_mobileguia = new vF32(v429, 0, 0, 87, 74, 350, 63, 128, 128);
         this.emoji_headshot = new vF32(
           v427,
