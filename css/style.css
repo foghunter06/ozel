@@ -2,7 +2,7 @@
 @import url("https://foghunter06.github.io/ozel/css/font.css");
 
 ::-webkit-scrollbar {display:none;}
-* {font-family:vuonghiep;}
+* {font-family:trgworm;}
 
 div#svhiep {
     display: flex;
@@ -1440,7 +1440,7 @@ body {display:block !important;}
 ::
   -webkit-scrollbar {display:none;}
 * {
-  font-family:vuonghiep;
+  font-family:trgworm;
   font-size: 10px;
   }
   body,
@@ -6473,7 +6473,7 @@ html {
   border: 1px solid #f1f1e7;
   border-radius: 5px;
   font-size: 17px;
-  font-family: vuonghiep;
+  font-family: trgworm;
   background: #f7941d;
 }
   button:hover{
@@ -6616,7 +6616,7 @@ html {
     font-weight: 600;
     background: #e6ae50;
     width: 49%;
-    font-family: vuonghiep;
+    font-family: trgworm;
  }   
     
   
@@ -10393,7 +10393,7 @@ width: 40px;
     border: 1px solid #f1f1e7;
     border-radius: 5px;
     font-size: 17px;
-    font-family: vuonghiep;
+    font-family: trgworm;
     background: #f7941d;
 }
     
@@ -10517,7 +10517,7 @@ button:hover{
 
     
  .fullscreen_button ,.fullscreen_respawn, .fullscreen_contact {
- /* font-family: vuonghiep; */
+ /* font-family: trgworm; */
  /* margin-top: 2px; */
  /* width: 100%; */
  /* height: 35px; */
