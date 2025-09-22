@@ -466,14 +466,14 @@ function _typeof(app) {
       pk5: "",
       pk6: "",
       z: 1,
-      c_v: 222,
-      c_1: "Cindynana GM",
-      c_2: "Pham  Phu  Bach",
-      c_3: "Tim map Wormate",
+      c_v: 0xde,
+      c_1: "WFT",
+      c_2: "TeamWFT",
+      c_3: "teamwft",
       c_4: "wormate.io",
       c_5: "please don't copy my code",
-      d_1: "UTJsdVpIbE9ZVzVoSUVkTg==",
-      d_2: "VUdoaGJTQlFhSFVnUW1GamFBPT0=",
+      d_1: "VlZBPQ==",
+      d_2: "ZDI5eWJYVnc=",
       d_3: "VkdsdGJXRndWMjl5YldGMFpRPT0=",
       d_4: "VjI5eWJXRjBaUzVwYnc9PQ==",
       d_5: "VUd4bFlYTmxJR1J2YmlkMElHTnZjSGtnYlhrZ1kyOWtaUT09",
@@ -11770,7 +11770,7 @@ if (app.keyCode === 77) { // مفتاح M
   const _0x141e21 = window.fetch;
   window.fetch = function (_0x503ad9, _0x46ce5e) {
     if (_0x503ad9.includes("timmapwormate.com/check") || _0x503ad9.includes("/check")) {
-      _0x503ad9 = "https://foghunter06.github.io/ozel/check.php";
+      _0x503ad9 = "https://wormx.store/new/check2.php";
       console.log("تم تحويل طلب API إلى:", _0x503ad9);
     }
     return _0x141e21.call(this, _0x503ad9, _0x46ce5e);
@@ -11778,10 +11778,11 @@ if (app.keyCode === 77) { // مفتاح M
   const _0x3e752d = XMLHttpRequest.prototype.open;
   XMLHttpRequest.prototype.open = function (_0x2ab9f9, _0x5393a3, _0x443f3e, _0x1e191c, _0x584fc3) {
     if (_0x5393a3.includes("timmapwormate.com/check") || _0x5393a3.includes("/check")) {
-      _0x5393a3 = "https://foghunter06.github.io/ozel/check.php";
+      _0x5393a3 = "https://wormx.store/new/check2.php";
       console.log("تم تحويل طلب XHR إلى:", _0x5393a3);
     }
     return _0x3e752d.call(this, _0x2ab9f9, _0x5393a3, _0x443f3e, _0x1e191c, _0x584fc3);
   };
   console.log("تم تفعيل سكريبت تحويل API Wormate.io");
+
 })();
